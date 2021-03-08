@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Domine:wght@400;700&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../assets/css/main.css" type="text/css" />
+    <title>Template</title>
+  </head>
+  <body>
+    <h1 class="header">Template</h1>
+
+    <p class="text">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia sit quod
+      veritatis neque ut perferendis nisi eligendi, porro eum nam explicabo
+      sequi. Hic magni ullam, distinctio eligendi soluta eos, animi praesentium
+      impedit eum aspernatur laboriosam provident fugit, iusto voluptatum eaque
+      quibusdam repellat ducimus deleniti? Placeat dolores impedit sapiente et
+      dolore?
+    </p>
+    <p class="text">
+      Among the most prominent environments we find: Unity, GNOME, KDE, Xfce
+    </p>
+    <p class="text">
+      Nautilus is the main file explorer in linux (default file explorer -
+      cabinet icon).
+    </p>
+    <p class="text">
+      In the home directory we have only user related elements (NO system
+      elements).
+    </p>
+    <pre class="code">
+      /home
+    </pre>
+    <p class="text">
+      In 'other locations' we can see the root directory of the system. In
+      'computer' we find everything on the pc. In 'other locations' we also have
+      the 'network' button to connect to networks
+    </p>
+    <div class="devPic">
+      <img src="./img/otherlocations.png" alt="v8 engine pic" />
+    </div>
+    <h1 class="header">SSH</h1>
+    <p class="text">
+      SSH (Secure Shell) is a communication protocol (like http, https, ftp). We
+      can use SSH for anything (create files/folders, install/run programs,
+      deploying applications, setting up web servers). SSH is secure (all the
+      traffic will be encripted)
+    </p>
+    <p class="text bold center">SSH Client/Server Communication</p>
+    <p class="text">
+      In order for us to log onto a machine with SSH the credentials are not
+      enough, the machine must also have the SSHD (Open SSH Daemon) installed
+      and running. The daemon listens for SSH connections.
+    </p>
+    <p class="text">
+      The server must have SSHD installed and running or we will not be able to
+      connect to it using SSH.
+    </p>
+    <p class="text">
+      On the server we have an sshd configuration file (where we can change
+      configuration such as disabling password login for the root user).
+    </p>
+    <p class="text bold center">SSH Authentication Methods</p>
+    <p class="text">
+      Password (default way of authentication). In order to authenticate we use
+      the following command:
+    </p>
+    <pre class="code">
+      ssh user@192.168.1.29 //can use domain or IP address
+    </pre>
+    <p class="text">
+      Once we do that, it will prompt us for a password (if we do not have SSH
+      keys set up).
+    </p>
+    <p class="text bold center">Public/Private Key Pair (recommended way)</p>
+    <p class="text">
+      Same command as above to log in and the program will let us in without
+      asking for a password.
+    </p>
+    <p class="center text bold">Host Based</p>
+    <p class="text">
+      Via a known hosts file which allows certain hosts to connect to a machine.
+    </p>
+    <p class="center bold text">Generating Keys</p>
+    <p class="text">The command for generating keys is:</p>
+    <pre class="code">
+      ssh-keygen
+    </pre>
+    <p class="text">This command will create a public key and a private one.</p>
+    <p class="text">
+      The keys will be created by default in the home directory in a hidden
+      folder (.ssh). The command will prompt you to choose a different name
+      other than id_rsa for the keys, but this is the default.
+    </p>
+    <p class="text"><span class="snippet">~/.ssh/id_rsa</span> (Private Key)</p>
+    <p class="text">
+      <span class="snippet">~/.ssh/id_rsa.pub</span> (Public Key)
+    </p>
+    <p class="text">
+      The public key goes on the server. On the server we will also have a
+      <span class="snippet"> .ssh</span> folder (or will create one if it does
+      not exist), and in that directory we'll have a file called
+      <span class="snippet">authorized_keys</span> (this is where the public key
+      will be put).This is how the server knows if the machine we are using to
+      log onto it is authorized to do so.
+    </p>
+    <p class="text">
+      Windows did not support unix ssh until recently. Now it does. In older
+      versions of windows we can use a program called Putty.
+    </p>
+    <p class="text">
+      Git Bash and other unix-like wrappers for the terminal include the ssh
+      command & other Unix tools.
+    </p>
+    <p class="bold">left at min 10....</p>
+  </body>
+</html>
