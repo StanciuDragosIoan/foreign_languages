@@ -38,11 +38,21 @@ body {
   margin-bottom: -1rem;
   line-height: 3rem;
 }
+
 .underline {
   text-decoration: underline;
   border: 3px solid #ddd;
   width: 30%;
-  margin: 1rem auto 1rem auto;
+  display:block;  
+  margin: 2rem auto 2rem auto;
+}
+
+.hide {
+  opacity:0; 
+}
+
+.toggler-btn {
+  margin-left: 1rem;
 }
 
 .snippet {
@@ -146,6 +156,12 @@ body {
     padding-top: 2rem;
     line-height: 2rem;
   }
+
+  .underline { 
+    width: 60%;
+    display:block;
+    margin:auto!important;
+  }
 }
 
 @media (max-width: 500px) {
@@ -168,4 +184,5 @@ body {
   .devPic > img {
     max-width: 300px;
   }
+
 }
