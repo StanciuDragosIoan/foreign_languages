@@ -11,3 +11,22 @@ const toggleTranslation = (e) => {
         e.target.innerText = 'Show';
     }
 }
+
+const check  = (e, answer) => {
+    const answerBox = Array.from(document.querySelectorAll(".checkAnswer"));
+    if(e.target.value !== answer){
+       console.log('wrong');
+       answerBox.map(i=> {
+        i.style.border = "2px solid red";
+    });
+    } else {
+        console.log('correct'); 
+
+        answerBox.map(i=> {
+            i.style.border = "2px solid green";
+        });
+    }
+    answerBox.map(i=> {
+        //i.style.backgroundColor = "red";
+    });
+}
