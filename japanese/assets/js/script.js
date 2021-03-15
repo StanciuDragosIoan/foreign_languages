@@ -13,20 +13,23 @@ const toggleTranslation = (e) => {
 }
 
 const check  = (e, answer) => {
-    const answerBox = Array.from(document.querySelectorAll(".checkAnswer"));
-    if(e.target.value !== answer){
-       console.log('wrong');
-       answerBox.map(i=> {
-        i.style.border = "2px solid red";
-    });
-    } else {
-        console.log('correct'); 
+    const label = e.target.previousSibling.previousSibling;
+    console.log(label)
+    const input =   e.target;
+    console.log(input)
 
-        answerBox.map(i=> {
-            i.style.border = "2px solid green";
-        });
+ if(e.target.value !== answer){
+       console.log('wrong');
+   
+       label.style.border = "5px solid red";
+       input.style.border = "5px solid red";
+        label.innerText = "Wrong! X_x"
+    } else {
+        label.style.border = "5px solid green";
+        input.style.border = "5px solid green";
+        label.innerText = "Correct! ^_^"
     }
-    answerBox.map(i=> {
-        //i.style.backgroundColor = "red";
-    });
+
+ 
+    
 }
