@@ -554,14 +554,84 @@ const values = [
 const columns = [
     {
         name: 'The Hiragana Vowels',
-        values: 'あ い う え お',
+        values: ['あ', 'い', 'う', 'え', 'お'],
+        translations: ['a', 'i', 'u', 'e', 'o'],
         dakuten: false,
         handakuten: false
+    },
+
+    {
+        name: 'The Hiragana Vowels',
+        values: ['あ', 'い', 'う', 'え', 'お'],
+        translations: ['a', 'i', 'u', 'e', 'o'],
+        dakuten: true,
+        handakuten: false
+    },
+
+    {
+        name: 'The Hiragana Vowels',
+        values: ['あ', 'い', 'う', 'え', 'お'],
+        translations: ['a', 'i', 'u', 'e', 'o'],
+        dakuten: true,
+        handakuten: true
     }
 ];
 
+/*
+ <p class="text center underline">
+      The Hiragana H Column (は　ひ　ふ　へ　ほ)
+    </p>
+
+    <p class="text center">
+      は
+      <span class="hide"> (HA) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+    <p class="text center">
+      *with the <span class="snippet">゛</span> (dakuten) dyacritic this becomes
+      <span class="snippet">ば </span>
+      <span class="hide"> (BA) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+    <p class="text center">
+      *with the <span class="snippet">ﾟ</span> (handakuten) dyacritic this
+      becomes
+      <span class="snippet">ぱ </span>
+      <span class="hide"> (PA) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+*/
+
 const displayColumns = (columns) => {
+
     //grab id #hiraganaColumns
+    let outputDiv = document.querySelector("#hiraganaColumns");
+    let titleOutput = ``;
+    let columnOutput = ``;
+    let globalOuput = ``;
+    
+
+
+    columns.forEach((i, index) => {
+        titleOutput += `    
+        <p class="text center underline">
+            ${i.name} (${i.values})
+        </p>
+        `;
+    });
+
+    globalOutput = `
+            ${titleOutput}
+            ${columnOutput}
+        `;
+    outputDiv.innerHTML = globalOutput;
 } 
 
 
@@ -625,4 +695,4 @@ const renderPracticeTemplates = (practiceTemplates) => {
 //method calls
 
 renderPracticeTemplates(values);
- 
+// displayColumns(columns);
