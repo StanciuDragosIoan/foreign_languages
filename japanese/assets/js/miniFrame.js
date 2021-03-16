@@ -546,6 +546,25 @@ const values = [
     },
 ];
 
+
+/*
+ * kana columns
+ */
+
+const columns = [
+    {
+        name: 'The Hiragana Vowels',
+        values: 'あ い う え お',
+        dakuten: false,
+        handakuten: false
+    }
+];
+
+const displayColumns = (columns) => {
+    //grab id #hiraganaColumns
+} 
+
+
  
 /*
  * shuffle array of values
@@ -598,6 +617,12 @@ const renderPracticeTemplates = (practiceTemplates) => {
     outputDiv.innerHTML = output;
 
 };
+
+
+
+
+
+//method calls
 
 renderPracticeTemplates(values);
  
