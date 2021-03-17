@@ -720,9 +720,8 @@ const columnA = [
     },
 ]
 
-
+shuffle(columnA);
 //method calls
-
 renderPracticeTemplates(values, "#practiceTemplates");
 renderPracticeTemplates(columnA, ".practice-column");
 // displayColumns(columns);
