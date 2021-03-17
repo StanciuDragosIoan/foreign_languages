@@ -556,24 +556,24 @@ const columns = [
         name: 'The Hiragana Vowels',
         values: ['あ', 'い', 'う', 'え', 'お'],
         translations: ['a', 'i', 'u', 'e', 'o'],
+        dakuten: true,
+        handakuten: false
+    },
+
+    {
+        name: 'The Hiragana Vowels2',
+        values: ['あ', 'い', 'う', 'え', 'お'],
+        translations: ['a', 'i', 'u', 'e', 'o'],
         dakuten: false,
         handakuten: false
     },
 
     {
-        name: 'The Hiragana Vowels',
+        name: 'The Hiragana Vowels3',
         values: ['あ', 'い', 'う', 'え', 'お'],
         translations: ['a', 'i', 'u', 'e', 'o'],
-        dakuten: true,
+        dakuten: false,
         handakuten: false
-    },
-
-    {
-        name: 'The Hiragana Vowels',
-        values: ['あ', 'い', 'う', 'え', 'お'],
-        translations: ['a', 'i', 'u', 'e', 'o'],
-        dakuten: true,
-        handakuten: true
     }
 ];
 

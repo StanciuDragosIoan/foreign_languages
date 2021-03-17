@@ -40,11 +40,20 @@ const displayColumns = (columns) => {
     let outputDiv = document.querySelector("#hiraganaColumns");
     let titleOutput = ``;
     let columnOutput = ``;
-    let globalOuput = ``;
+    let dakutenOutput = ``;
+    let hanDakutenOutput = ``;
+    let globalOutput = ``;
+   
+
     
-
-
     columns.forEach((i, index) => {
+         
+    // if(i.dakuten === true){
+    //     dakutenOutput = `<p>Dakuten</p>`;
+    // } else if(i.handakuten === true){
+    //     hanDakutenOutput = `<p>hanDakuten</p>`;
+    // }
+
         titleOutput += `    
         <p class="text center underline">
             ${i.name} (${i.values})
@@ -55,6 +64,8 @@ const displayColumns = (columns) => {
     globalOutput = `
             ${titleOutput}
             ${columnOutput}
+            ${dakutenOutput}
+            ${hanDakutenOutput}
         `;
     outputDiv.innerHTML = globalOutput;
 } 
@@ -176,4 +187,4 @@ const test = [
 // renderPracticeTemplates(values, "#practiceTemplates");
 // renderPracticeTemplates(columnA, ".practice-column");
 renderPracticeTemplates2(test);
-// displayColumns(columns);
+displayColumns(columns);
