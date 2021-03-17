@@ -670,8 +670,8 @@ shuffle(values);
 /*
  * render practice templates
  */
-const renderPracticeTemplates = (practiceTemplates) => {
-    let outputDiv = document.querySelector("#practiceTemplates");
+const renderPracticeTemplates = (practiceTemplates, selector) => {
+    let outputDiv = document.querySelector(selector);
     let output = ``;
     practiceTemplates.forEach((i)=> {
         output += 
@@ -689,10 +689,40 @@ const renderPracticeTemplates = (practiceTemplates) => {
 };
 
 
+const renderPracticeColumn = () => {
+    // document.querySelector('.practice-column').innerHTML = 'test';
+}
 
+const columnA = [
+    {
+        kana: 'あ',
+        value: 'a'
+    },
+
+    {
+        kana: 'い',
+        value: 'i'
+    },
+
+    {
+        kana: 'う',
+        value: 'u'
+    },
+
+    {
+        kana: 'え',
+        value: 'e'
+    },
+
+    {
+        kana: 'お',
+        value: 'o'
+    },
+]
 
 
 //method calls
 
-renderPracticeTemplates(values);
+renderPracticeTemplates(values, "#practiceTemplates");
+renderPracticeTemplates(columnA, ".practice-column");
 // displayColumns(columns);
