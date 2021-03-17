@@ -554,27 +554,138 @@ const values = [
 const columns = [
     {
         name: 'The Hiragana Vowels',
-        values: ['あ', 'い', 'う', 'え', 'お'],
-        translations: ['a', 'i', 'u', 'e', 'o'],
-        dakuten: true,
-        handakuten: false
+        titleValue: 'あ い う え お',
+        values: [
+            { 
+                kana: 'あ', 
+                kanaTranskation: 'a', 
+                dakuten: 'test', 
+                dakutenTranslation: 'testTranslation', 
+                handakuten: 'test2', 
+                handakutenTranslation: 'test2Handakuten'
+            },
+
+            { 
+                kana: 'い', 
+                kanaTranskation: 'i', 
+                dakuten: null, 
+                dakutenTranslation: null, 
+                handakuten: null, 
+                handakutenTranslation: null
+            },
+
+
+            { 
+                kana: 'う', 
+                kanaTranskation: 'u', 
+                dakuten: null, 
+                dakutenTranslation: null, 
+                handakuten: null, 
+                handakutenTranslation: null
+            },
+
+
+            { 
+                kana: 'え', 
+                kanaTranskation: 'e', 
+                dakuten: null, 
+                dakutenTranslation: null, 
+                handakuten: null, 
+                handakutenTranslation: null
+            },
+
+            { 
+                kana: 'お', 
+                kanaTranskation: 'o', 
+                dakuten: null, 
+                dakutenTranslation: null, 
+                handakuten: null, 
+                handakutenTranslation: null
+            }
+        ], 
+
+        words: 'wordHere',
+        practice: 'practiceHere'
     },
 
     {
         name: 'The Hiragana Vowels2',
-        values: ['あ', 'い', 'う', 'え', 'お'],
-        translations: ['a', 'i', 'u', 'e', 'o'],
-        dakuten: false,
-        handakuten: false
+        titleValue: 'あ い う え お',
+        values: [
+            { 
+                kana: 'あ', 
+                kanaTranskation: 'a', 
+                dakuten: null, 
+                dakutenTranslation: null, 
+                handakuten: null, 
+                handakutenTranslation: null
+            },
+
+            { 
+                kana: 'い', 
+                kanaTranskation: 'i', 
+                dakuten: null, 
+                dakutenTranslation: null, 
+                handakuten: null, 
+                handakutenTranslation: null
+            },
+
+
+            { 
+                kana: 'う', 
+                kanaTranskation: 'u', 
+                dakuten: null, 
+                dakutenTranslation: null, 
+                handakuten: null, 
+                handakutenTranslation: null
+            },
+
+
+            { 
+                kana: 'え', 
+                kanaTranskation: 'e', 
+                dakuten: null, 
+                dakutenTranslation: null, 
+                handakuten: null, 
+                handakutenTranslation: null
+            },
+
+            { 
+                kana: 'お', 
+                kanaTranskation: 'o', 
+                dakuten: null, 
+                dakutenTranslation: null, 
+                handakuten: null, 
+                handakutenTranslation: null
+            }
+        ], 
+        words: null,
+        practice: null
     },
 
-    {
-        name: 'The Hiragana Vowels3',
-        values: ['あ', 'い', 'う', 'え', 'お'],
-        translations: ['a', 'i', 'u', 'e', 'o'],
-        dakuten: false,
-        handakuten: false
-    }
+    // {
+    //     name: 'The Hiragana K Column',
+    //     values: ['か', 'き', 'く', 'け ', 'こ'],
+    //     translations: ['ka', 'ki', 'ku', 'ke', 'ko'],
+    //     dakuten: true,
+    //     dakutenValues: ['が', 'ぎ', 'ぐ', 'げ', 'ご'],
+    //     dakutenTranslations: ['ga', 'gi', 'gu', 'ge', 'go'],
+    //     handakuten: false,
+    //     handakutenValues: [],
+    //     handakutenTranslations: [],
+    // },
+
+    // {
+    //     name: 'The Hiragana Vowels3',
+    //     values: ['あ', 'い', 'う', 'え', 'お'],
+    //     translations: ['a', 'i', 'u', 'e', 'o'],
+    //     dakuten: true,
+    //     dakutenValues: ['あ', 'い', 'う', 'え', 'お'],
+    //     dakutenTranslations: ['a', 'i', 'u', 'e', 'o'],
+    //     handakuten: true,
+    //     handakutenValues: ['あ', 'い', 'う', 'え', 'お'],
+    //     handakutenTranslations: ['a', 'i', 'u', 'e', 'o'],
+    // }
 ];
 
 

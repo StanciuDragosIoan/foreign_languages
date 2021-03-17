@@ -38,35 +38,85 @@ const displayColumns = (columns) => {
 
     //grab id #hiraganaColumns
     let outputDiv = document.querySelector("#hiraganaColumns");
-    let titleOutput = ``;
-    let columnOutput = ``;
-    let dakutenOutput = ``;
-    let hanDakutenOutput = ``;
     let globalOutput = ``;
    
 
     
-    columns.forEach((i, index) => {
-         
-    // if(i.dakuten === true){
-    //     dakutenOutput = `<p>Dakuten</p>`;
-    // } else if(i.handakuten === true){
-    //     hanDakutenOutput = `<p>hanDakuten</p>`;
-    // }
-
-        titleOutput += `    
+    columns.forEach((i) => {
+        globalOutput += `    
         <p class="text center underline">
-            ${i.name} (${i.values})
+            ${i.name} (${i.titleValue})
         </p>
         `;
+
+        i.values.forEach( value =>{
+            globalOutput += `    
+            <p class="text center">
+                ${value.kana}
+                <span class="hide"> (${value.kanaTranslation}) </span>
+                <button onclick="toggleTranslation(event)" class="toggler-btn">
+                Show
+                </button>
+            </p>
+            `;
+
+            if(value.dakuten !== null ){
+                globalOutput += `
+                <p class="text center">
+                    *with the <span class="snippet">゛</span> (dakuten) dyacritic this becomes
+                    <span class="snippet">${value.dakuten}</span>
+                    <span class="hide"> (${value.dakutenTranslation}) </span>
+                    <button onclick="toggleTranslation(event)" class="toggler-btn">
+                    Show
+                    </button>
+                </p>
+                `;
+            }
+
+            if(value.handakuten !== null) {
+                globalOutput += `
+                <p class="text center">
+                    *with the <span class="snippet">ﾟ</span> (handakuten) dyacritic this
+                    becomes
+                    <span class="snippet">${value.handakuten}</span>
+                    <span class="hide"> (${value.handakutenTranslation}) </span>
+                    <button onclick="toggleTranslation(event)" class="toggler-btn">
+                        Show
+                    </button>
+                </p>
+                `
+            }
+
+           
+
+          
+        });
+
+        if(i.words !== null) {
+            globalOutput += `
+            <p class="text center bold"> Basic words with  ${i.name}</p>
+            <p class="text center">
+               WORDS here
+            </p>
+            `
+        }
+
+          if(i.practice !== null) {
+                globalOutput += `
+                <p class="text center">
+                   Practice here
+                </p>
+                `
+            }
+      
+        
+
+       
     });
 
-    globalOutput = `
-            ${titleOutput}
-            ${columnOutput}
-            ${dakutenOutput}
-            ${hanDakutenOutput}
-        `;
+     
+
+   
     outputDiv.innerHTML = globalOutput;
 } 
 
@@ -187,4 +237,4 @@ const test = [
 // renderPracticeTemplates(values, "#practiceTemplates");
 // renderPracticeTemplates(columnA, ".practice-column");
 renderPracticeTemplates2(test);
-displayColumns(columns);
+// displayColumns(columns);
