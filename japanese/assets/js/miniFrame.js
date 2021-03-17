@@ -672,7 +672,13 @@ shuffle(values);
  */
 const renderPracticeTemplates = (practiceTemplates, selector) => {
     let outputDiv = document.querySelector(selector);
-    let output = ``;
+    let output = `
+    <p class="text center">
+      <button onclick="()=> console.log('shuffler here')" class="toggler-btn">
+        Shuffle
+      </button>
+    </p>
+    `;
     practiceTemplates.forEach((i)=> {
         output += 
         `
