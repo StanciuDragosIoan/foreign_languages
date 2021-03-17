@@ -559,10 +559,10 @@ const columns = [
             { 
                 kana: 'あ', 
                 kanaTranskation: 'a', 
-                dakuten: 'test', 
-                dakutenTranslation: 'testTranslation', 
-                handakuten: 'test2', 
-                handakutenTranslation: 'test2Handakuten'
+                dakuten: null, 
+                dakutenTranslation: null, 
+                handakuten: null, 
+                handakutenTranslation: null
             },
 
             { 
@@ -604,8 +604,63 @@ const columns = [
             }
         ], 
 
-        words: 'wordHere',
-        practice: 'practiceHere'
+        words: [
+            {
+                kanaWord: 'あい',
+                translation: 'Love'
+            },
+
+            {
+                kanaWord: 'い',
+                translation: 'Stomach'
+            },
+
+            {
+                kanaWord: 'いいえ',
+                translation: 'no'
+            },
+
+            {
+                kanaWord: 'うえ',
+                translation: 'Up/Above'
+            },
+
+            {
+                kanaWord: 'あお',
+                translation: 'Blue'
+            }
+        ],
+        practice: [
+            {
+                kana: 'あ',
+                value: 'a'
+            },
+        
+            {
+                kana: 'い',
+                value: 'i'
+            },
+        
+            {
+                kana: 'う',
+                value: 'u'
+            },
+        
+            {
+                kana: 'え',
+                value: 'e'
+            },
+        
+            {
+                kana: 'お',
+                value: 'o'
+            },
+        ],
+        code: `
+            const test32 = this; 
+            const letters   = this;
+            console.log(test32);
+        `
     },
 
     {
@@ -615,10 +670,10 @@ const columns = [
             { 
                 kana: 'あ', 
                 kanaTranskation: 'a', 
-                dakuten: null, 
-                dakutenTranslation: null, 
-                handakuten: null, 
-                handakutenTranslation: null
+                dakuten: 'test', 
+                dakutenTranslation: 'testTranslation', 
+                handakuten: 'test2', 
+                handakutenTranslation: 'test2Handakuten'
             },
 
             { 

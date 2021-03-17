@@ -34,6 +34,10 @@
 
 */
 
+function testFunc() {
+  console.log('test');
+}
+  
 const displayColumns = (columns) => {
 
     //grab id #hiraganaColumns
@@ -95,18 +99,46 @@ const displayColumns = (columns) => {
         if(i.words !== null) {
             globalOutput += `
             <p class="text center bold"> Basic words with  ${i.name}</p>
-            <p class="text center">
-               WORDS here
-            </p>
-            `
+            `;
+            i.words.forEach(word=>{
+              globalOutput += `
+              <p class="text center">
+                ${word.kanaWord}
+                <span class="hide"> (${word.translation}) </span>
+                <button onclick="toggleTranslation(event)" class="toggler-btn">
+                  Show
+                </button>
+              </p>
+              `
+            })
+           
         }
 
           if(i.practice !== null) {
                 globalOutput += `
+                <p class="text center bold">
+                   Practice  the ${i.name} here
+                </p>
                 <p class="text center">
-                   Practice here
+                  <button 
+                  onclick="console.log('to implement shuffle logic here..');"
+                  class="toggler-btn">
+                    Shuffle2
+                  </button>
+                </p>
+                <p class="text center">
+                *use this button to shuffle the order in which Kana chars are displayed
                 </p>
                 `
+                i.practice.map(practiceKana => {
+                  globalOutput += `
+                  <p class="text center">
+                    ${practiceKana.kana}
+                    <label class="labelItem">Answer</label>
+                    <input class="inputItem" oninput="check(event, '${practiceKana.value}')" type="text">
+                </p>
+                  `
+                });                 
             }
       
         
@@ -215,26 +247,26 @@ const renderPracticeColumn = () => {
 }
 
  
-const test = [
-    {
-        practiceTemplates: values,
-        selector: "#practiceTemplates"
-    },
+// const test = [
+//     {
+//         practiceTemplates: values,
+//         selector: "#practiceTemplates"
+//     },
 
-    {
-        practiceTemplates: columnA,
-        selector: ".practice-columnA"
-    },
+//     {
+//         practiceTemplates: columnA,
+//         selector: ".practice-columnA"
+//     },
 
-    {
-        practiceTemplates: columnK,
-        selector: ".practice-columnK"
-    },
-];
+//     {
+//         practiceTemplates: columnK,
+//         selector: ".practice-columnK"
+//     },
+// ];
 
 // shuffle(columnA);
 //method calls
-// renderPracticeTemplates(values, "#practiceTemplates");
+renderPracticeTemplates(values, "#practiceTemplates");
 // renderPracticeTemplates(columnA, ".practice-column");
-renderPracticeTemplates2(test);
+// renderPracticeTemplates2(test);
 // displayColumns(columns);
