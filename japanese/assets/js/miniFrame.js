@@ -39,7 +39,7 @@ const displayColumns = (columns) => {
   let outputDiv = document.querySelector("#hiraganaColumns");
   let globalOutput = ``;
 
-  columns.forEach((i) => {
+  columns.forEach((i, index) => {
     globalOutput += `    
         <p class="text center underline">
             ${i.name} (${i.titleValue})
@@ -101,15 +101,22 @@ const displayColumns = (columns) => {
               </p>
               `;
       });
+    }
 
-      if (i.mention !== null) {
+    i.values.map((kanaVal, index) => {
+      // TODO refactor logic
+      if (kanaVal.mention !== null) {
         globalOutput += `
-        <p class="text center">
-          *the letter <span class="snippet">${i.values[4].kana}</span> has a second variant (which is
-          <span class="snippet">${i.values[4].mention}</span> )
-        </p>
+          <p class="text center">
+            *the letter <span class="snippet">そ</span> has a second variant (which is
+            <span class="snippet">${kanaVal.mention}</span> )
+          </p>
         `;
       }
+    });
+
+    if (i.values.mention !== null) {
+      // console.log(i.values);
     }
 
     if (i.practice.length > 0) {

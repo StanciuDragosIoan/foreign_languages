@@ -554,6 +554,7 @@ const columns = [
         dakutenTranslation: null,
         handakuten: null,
         handakutenTranslation: null,
+        mention: null,
       },
 
       {
@@ -563,6 +564,7 @@ const columns = [
         dakutenTranslation: null,
         handakuten: null,
         handakutenTranslation: null,
+        mention: null,
       },
 
       {
@@ -572,6 +574,7 @@ const columns = [
         dakutenTranslation: null,
         handakuten: null,
         handakutenTranslation: null,
+        mention: null,
       },
 
       {
@@ -581,6 +584,7 @@ const columns = [
         dakutenTranslation: null,
         handakuten: null,
         handakutenTranslation: null,
+        mention: null,
       },
 
       {
@@ -590,6 +594,7 @@ const columns = [
         dakutenTranslation: null,
         handakuten: null,
         handakutenTranslation: null,
+        mention: null,
       },
     ],
 
@@ -658,6 +663,7 @@ const columns = [
         dakutenTranslation: "GA",
         handakuten: null,
         handakutenTranslation: null,
+        mention: null,
       },
 
       {
@@ -667,6 +673,7 @@ const columns = [
         dakutenTranslation: "GI",
         handakuten: null,
         handakutenTranslation: null,
+        mention: null,
       },
 
       {
@@ -676,6 +683,7 @@ const columns = [
         dakutenTranslation: "GU",
         handakuten: null,
         handakutenTranslation: null,
+        mention: null,
       },
 
       {
@@ -685,6 +693,7 @@ const columns = [
         dakutenTranslation: "GE",
         handakuten: null,
         handakutenTranslation: null,
+        mention: null,
       },
 
       {
@@ -694,6 +703,7 @@ const columns = [
         dakutenTranslation: "GO",
         handakuten: null,
         handakutenTranslation: null,
+        mention: null,
       },
     ],
     words: [
@@ -801,6 +811,7 @@ const columns = [
         dakutenTranslation: "ZA",
         handakuten: null,
         handakutenTranslation: null,
+        mention: null,
       },
 
       {
@@ -810,6 +821,7 @@ const columns = [
         dakutenTranslation: "DJI",
         handakuten: null,
         handakutenTranslation: null,
+        mention: null,
       },
 
       {
@@ -819,6 +831,7 @@ const columns = [
         dakutenTranslation: "ZU",
         handakuten: null,
         handakutenTranslation: null,
+        mention: null,
       },
 
       {
@@ -828,6 +841,7 @@ const columns = [
         dakutenTranslation: "ZE",
         handakuten: null,
         handakutenTranslation: null,
+        mention: null,
       },
 
       {
@@ -963,87 +977,5 @@ const columns = [
         translation: "SO",
       },
     ],
-  },
-];
-
-/*
- * kana columns for practice sections
- */
-const columnA = [
-  {
-    kana: "あ",
-    value: "a",
-  },
-
-  {
-    kana: "い",
-    value: "i",
-  },
-
-  {
-    kana: "う",
-    value: "u",
-  },
-
-  {
-    kana: "え",
-    value: "e",
-  },
-
-  {
-    kana: "お",
-    value: "o",
-  },
-];
-
-const columnK = [
-  {
-    kana: "か",
-    value: "ka",
-  },
-
-  {
-    kana: "が",
-    value: "ga",
-  },
-
-  {
-    kana: "き",
-    value: "ki",
-  },
-
-  {
-    kana: "ぎ",
-    value: "gi",
-  },
-
-  {
-    kana: "く",
-    value: "ku",
-  },
-
-  {
-    kana: "ぐ",
-    value: "gu",
-  },
-
-  {
-    kana: "け",
-    value: "ke",
-  },
-
-  {
-    kana: "げ",
-    value: "ge",
-  },
-
-  {
-    kana: "こ",
-    value: "ko",
-  },
-
-  {
-    kana: "ご",
-    value: "go",
   },
 ];
