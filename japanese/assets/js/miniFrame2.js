@@ -108,14 +108,41 @@ const displayColumns = (columns) => {
   outputDiv.innerHTML = globalOutput;
 };
 
+/*
+ * render practice templates
+ */
+const renderAllPracticeTemplates = (practiceTemplates, selector) => {
+  let outputDiv = document.querySelector(selector);
+  let output = `
+      <p class="text center underline">
+        Practice all Kana characters here
+      </p>
+      <p class="text center">
+        *remember they re-shuffle on every page reload ^__^
+      </p>
+    `;
+  practiceTemplates.forEach((i) => {
+    output += `
+            <p class="text center">
+            ${i.kana}
+            <label class="labelItem">Answer</label>
+            <input class="inputItem" oninput="check(event, '${i.value}')" type="text" />
+        </p>   
+        `;
+  });
+  outputDiv.innerHTML = output;
+};
+
 
 //method calls
 columns.map((column) => {
   shuffle(column.practice);
   shuffle(column.words);
 });
+
 displayColumns(columns);columns.map((column) => {
   shuffle(column.practice);
   shuffle(column.words);
 });
 displayColumns(columns);
+renderAllPracticeTemplates(values, "#practiceTemplates");
