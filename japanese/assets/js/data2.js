@@ -758,6 +758,144 @@ const columns = [
     ],
   },
 
+  {
+    title: "H Column (は ひ ふ へ ほ)",
+    values: [
+      {
+        kana: "は",
+        kanaTranslation: "HA",
+        dakuten: "ば",
+        dakutenTranslation:"BA",
+        handakuten: "ぱ",
+        handakutenTranslation: "PA",
+        mention: null,
+      },
+
+      {
+        kana: "ひ",
+        kanaTranslation: "HI",
+        dakuten: "び",
+        dakutenTranslation: "BI",
+        handakuten: "ぴ",
+        handakutenTranslation: "PI",
+        mention: null,
+      },
+
+      {
+        kana: "ふ",
+        kanaTranslation: "FU",
+        dakuten: "ぶ",
+        dakutenTranslation: "BU",
+        handakuten: "ぷ",
+        handakutenTranslation: "PU",
+        mention: null,
+      },
+
+      {
+        kana: "へ",
+        kanaTranslation: "HE",
+        dakuten: "ベ",
+        dakutenTranslation: "BE",
+        handakuten: "ペ",
+        handakutenTranslation: "PE",
+        mention: null,
+      },
+
+      {
+        kana: "ほ",
+        kanaTranslation: "HO",
+        dakuten: "ぼ",
+        dakutenTranslation: "BO",
+        handakuten: "ぽ",
+        handakutenTranslation: "PO",
+        mention: null,
+      },
+    ],
+
+    words: [
+      {
+        kanaWord: "replace_with_actual_word",
+        translation: "replace_with_actual_translation",
+      },
+
+      {
+        kanaWord: "replace_with_actual_word",
+        translation: "replace_with_actual_translation",
+      },
+
+      {
+        kanaWord: "replace_with_actual_word",
+        translation: "replace_with_actual_translation",
+      },
+
+      {
+        kanaWord: "replace_with_actual_word",
+        translation: "replace_with_actual_translation",
+      },
+
+      {
+        kanaWord: "replace_with_actual_word",
+        translation: "replace_with_actual_translation",
+      },
+    ],
+    practice: [
+      {
+        kana: "は",
+        value: "HA",
+      },
+
+      {
+        kana: "ば",
+        value: "BA",
+      },
+
+      {
+        kana: "ぱ",
+        value: "PA",
+      },
+
+      {
+        kana: "ひ",
+        value: "HI",
+      },
+
+      {
+        kana: "び",
+        value: "BI",
+      },
+
+      {
+        kana: "ぴ",
+        value: "PI",
+      },
+
+      {
+        kana: "ふ",
+        value: "FU",
+      },
+
+      {
+        kana: "ぶ",
+        value: "BU",
+      },
+
+      {
+        kana: "ぷ",
+        value: "PU"
+      },
+
+      {
+        kana: "へ",
+        value: "HE"
+      }
+
+      {
+        kana: "ベ",
+        value: "BE"
+      }
+    ],
+  },
+
     
   
 ];
