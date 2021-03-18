@@ -104,20 +104,12 @@ const displayColumns = (columns) => {
     }
 
     i.values.map((kanaVal, index) => {
-      // TODO refactor logic
       if (kanaVal.mention !== null) {
-        globalOutput += `
-          <p class="text center">
-            *the letter <span class="snippet">そ</span> has a second variant (which is
-            <span class="snippet">${kanaVal.mention}</span> )
-          </p>
-        `;
+        globalOutput += `${kanaVal.mention}`;
       }
     });
 
-    if (i.values.mention !== null) {
-      // console.log(i.values);
-    }
+    
 
     if (i.practice.length > 0) {
       globalOutput += `
@@ -150,8 +142,7 @@ const displayColumns = (columns) => {
  * shuffle array of values
  */
 
-function shuffle(array) {
-  // var currentIndex = array.length, temporaryValue, randomIndex;
+function shuffle(array) { 
 
   let currentIndex = array.length;
   let temporaryValue;
@@ -177,7 +168,7 @@ shuffle(values);
 /*
  * render practice templates
  */
-const renderPracticeTemplates = (practiceTemplates, selector) => {
+const renderAllPracticeTemplates = (practiceTemplates, selector) => {
   let outputDiv = document.querySelector(selector);
   let output = `
     <p class="text center">
@@ -198,55 +189,12 @@ const renderPracticeTemplates = (practiceTemplates, selector) => {
   outputDiv.innerHTML = output;
 };
 
-const renderPracticeTemplates2 = (arr) => {
-  arr.forEach((i) => {
-    let outputDiv = document.querySelector(i.selector);
-    let output = `
-        <p class="text center">
-          <button onclick="()=> console.log('shuffler here')" class="toggler-btn">
-            Shuffle
-          </button>
-        </p>
-        `;
-    i.practiceTemplates.forEach((i) => {
-      output += `
-                <p class="text center">
-                ${i.kana}
-                <label class="labelItem">Answer</label>
-                <input class="inputItem" oninput="check(event, '${i.value}')" type="text" />
-            </p>   
-            `;
-    });
-    outputDiv.innerHTML = output;
-  });
-};
+ 
 
-const renderPracticeColumn = () => {
-  // document.querySelector('.practice-column').innerHTML = 'test';
-};
-
-// const test = [
-//     {
-//         practiceTemplates: values,
-//         selector: "#practiceTemplates"
-//     },
-
-//     {
-//         practiceTemplates: columnA,
-//         selector: ".practice-columnA"
-//     },
-
-//     {
-//         practiceTemplates: columnK,
-//         selector: ".practice-columnK"
-//     },
-// ];
-
-// shuffle(columnA);
+ 
+ 
 //method calls
-renderPracticeTemplates(values, "#practiceTemplates");
-// renderPracticeTemplates(columnA, ".practice-column");
-// renderPracticeTemplates2(test);
+renderAllPracticeTemplates(values, "#practiceTemplates");
 
 columns.map((column) => {
   shuffle(column.practice);

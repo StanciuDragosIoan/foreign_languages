@@ -549,7 +549,7 @@ const columns = [
     values: [
       {
         kana: "あ",
-        kanaTranslation: "a",
+        kanaTranslation: "A",
         dakuten: null,
         dakutenTranslation: null,
         handakuten: null,
@@ -589,7 +589,7 @@ const columns = [
 
       {
         kana: "お",
-        kanaTranskation: "o",
+        kanaTranslation: "o",
         dakuten: null,
         dakutenTranslation: null,
         handakuten: null,
@@ -846,12 +846,404 @@ const columns = [
 
       {
         kana: "そ",
-        kanaTranskation: "SO",
+        kanaTranslation: "SO",
         dakuten: "ぞ",
         dakutenTranslation: "ZO",
         handakuten: null,
         handakutenTranslation: null,
-        mention: "ソ",
+        mention: `
+        <p class="text center">
+          *the letter <span class="snippet">そ</span> has a second variant (which is
+          <span class="snippet">ソ</span> )
+        </p>
+        `,
+      },
+    ],
+
+    words: [
+      {
+        kanaWord: "すし",
+        translation: "Sushi",
+      },
+
+      {
+        kanaWord: "ず",
+        translation: "Diagram",
+      },
+
+      {
+        kanaWord: "じこ",
+        translation: "Accident",
+      },
+
+      {
+        kanaWord: "さく",
+        translation: "To bloom",
+      },
+
+      {
+        kanaWord: "ぞう",
+        translation: "Elephant",
+      },
+
+      {
+        kanaWord: "おかし",
+        translation: "Sweets",
+      },
+
+      {
+        kanaWord: "おかしい",
+        translation: "Weird",
+      },
+
+      {
+        kanaWord: "おさけ",
+        translation: "Alcohool",
+      },
+
+      {
+        kanaWord: "さいご",
+        translation: "Last",
+      },
+
+      {
+        kanaWord: "そうぞう",
+        translation: "Imagination",
+      },
+
+      {
+        kanaWord: "こうこうせい",
+        translation: "Highschool student",
+      },
+
+      {
+        kanaWord: "かえす",
+        translation: "To return",
+      },
+
+      {
+        kanaWord: "うさぎ",
+        translation: "Rabbit",
+      },
+    ],
+    practice: [
+      {
+        kana: "さ",
+        value: "SA",
+      },
+
+      {
+        kana: "ざ",
+        value: "ZA",
+      },
+
+      {
+        kana: "し",
+        value: "SHI",
+      },
+
+      {
+        kana: "じ",
+        value: "DJI",
+      },
+
+      {
+        kana: "す",
+        value: "SU",
+      },
+
+      {
+        kana: "ず",
+        value: "ZU",
+      },
+
+      {
+        kana: "せ",
+        translation: "SE",
+      },
+
+      {
+        kana: "ぜ",
+        translation: "ZE",
+      },
+
+      {
+        kana: "そ",
+        translation: "SO",
+      },
+
+      {
+        kana: "ぞ",
+        translation: "ZO",
+      },
+
+      {
+        kana: "ソ",
+        translation: "SO",
+      },
+    ],
+  },
+
+  {
+    name: "The Hiragana T Column",
+    titleValue: "た　ち　つ　て　と",
+    values: [
+      {
+        kana: "た",
+        kanaTranslation: "TA",
+        dakuten: "だ",
+        dakutenTranslation: "DA",
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
+      },
+
+      {
+        kana: "ち",
+        kanaTranslation: "CHI",
+        dakuten: "ぢ",
+        dakutenTranslation: "DJI",
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
+      },
+
+      {
+        kana: "つ",
+        kanaTranslation: "TSU",
+        dakuten: "づ",
+        dakutenTranslation: "DZU",
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
+      },
+
+      {
+        kana: "せ",
+        kanaTranslation: "SE",
+        dakuten: "ぜ",
+        dakutenTranslation: "ZE",
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
+      },
+
+      {
+        kana: "そ",
+        kanaTranslation: "SO",
+        dakuten: "ぞ",
+        dakutenTranslation: "ZO",
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: `
+        <p class="text center">
+          *note that a smaller <span class="snippet">つ</span> (
+          <span class="snippet">っ</span> ) is used to elongate the pronounciation
+          of certain consonants:
+        </p>
+        <p class="text center">
+          *Smaller <span class="snippet">っ</span> is spelled/pronounced: chiisana
+          tsu (小さなつ)
+        </p>
+        <p class="text center">
+          かっこいい
+          <span class="hide"> (Cool) </span>
+          <button onclick="toggleTranslation(event)" class="toggler-btn">
+            Show
+          </button>
+        </p>
+        <p class="text center">
+          じっか
+          <span class="hide"> (one's family home) </span>
+          <button onclick="toggleTranslation(event)" class="toggler-btn">
+            Show
+          </button>
+        </p>
+        <p class="text center">
+          て
+          <span class="kana text-center"> (TE) </span>
+          <button onclick="toggleTranslation(event)" class="toggler-btn" style="background-color: rgb(189, 14, 81);">Hide</button>
+        </p>
+        `,
+      },
+    ],
+
+    words: [
+      {
+        kanaWord: "すし",
+        translation: "Sushi",
+      },
+
+      {
+        kanaWord: "ず",
+        translation: "Diagram",
+      },
+
+      {
+        kanaWord: "じこ",
+        translation: "Accident",
+      },
+
+      {
+        kanaWord: "さく",
+        translation: "To bloom",
+      },
+
+      {
+        kanaWord: "ぞう",
+        translation: "Elephant",
+      },
+
+      {
+        kanaWord: "おかし",
+        translation: "Sweets",
+      },
+
+      {
+        kanaWord: "おかしい",
+        translation: "Weird",
+      },
+
+      {
+        kanaWord: "おさけ",
+        translation: "Alcohool",
+      },
+
+      {
+        kanaWord: "さいご",
+        translation: "Last",
+      },
+
+      {
+        kanaWord: "そうぞう",
+        translation: "Imagination",
+      },
+
+      {
+        kanaWord: "こうこうせい",
+        translation: "Highschool student",
+      },
+
+      {
+        kanaWord: "かえす",
+        translation: "To return",
+      },
+
+      {
+        kanaWord: "うさぎ",
+        translation: "Rabbit",
+      },
+    ],
+    practice: [
+      {
+        kana: "さ",
+        value: "SA",
+      },
+
+      {
+        kana: "ざ",
+        value: "ZA",
+      },
+
+      {
+        kana: "し",
+        value: "SHI",
+      },
+
+      {
+        kana: "じ",
+        value: "DJI",
+      },
+
+      {
+        kana: "す",
+        value: "SU",
+      },
+
+      {
+        kana: "ず",
+        value: "ZU",
+      },
+
+      {
+        kana: "せ",
+        translation: "SE",
+      },
+
+      {
+        kana: "ぜ",
+        translation: "ZE",
+      },
+
+      {
+        kana: "そ",
+        translation: "SO",
+      },
+
+      {
+        kana: "ぞ",
+        translation: "ZO",
+      },
+
+      {
+        kana: "ソ",
+        translation: "SO",
+      },
+    ],
+  },
+
+  {
+    name: "The Hiragana TEMPLATE_COLUMN",
+    titleValue: "さ し す せ そ",
+    values: [
+      {
+        kana: "さ",
+        kanaTranslation: "SA",
+        dakuten: "ざ",
+        dakutenTranslation: "ZA",
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
+      },
+
+      {
+        kana: "し",
+        kanaTranslation: "SHI",
+        dakuten: "じ",
+        dakutenTranslation: "DJI",
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
+      },
+
+      {
+        kana: "す",
+        kanaTranslation: "SU",
+        dakuten: "ず",
+        dakutenTranslation: "ZU",
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
+      },
+
+      {
+        kana: "せ",
+        kanaTranslation: "SE",
+        dakuten: "ぜ",
+        dakutenTranslation: "ZE",
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
+      },
+
+      {
+        kana: "そ",
+        kanaTranslation: "SO",
+        dakuten: "ぞ",
+        dakutenTranslation: "ZO",
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
       },
     ],
 
