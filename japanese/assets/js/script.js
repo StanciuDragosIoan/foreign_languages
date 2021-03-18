@@ -14,10 +14,10 @@ const toggleTranslation = (e) => {
 
 const check = (e, answer) => {
   const label = e.target.previousSibling.previousSibling;
- 
-  const input = e.target; 
 
-  if (e.target.value.toLowerCase() !== answer) {
+  const input = e.target;
+
+  if (e.target.value.toLowerCase() !== answer.toLowerCase()) {
     label.style.border = "5px solid red";
     input.style.border = "5px solid red";
     label.innerText = "Wrong! X_x";
