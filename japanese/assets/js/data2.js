@@ -861,6 +861,576 @@ const columns = [
       },
     ],
   },
+
+  {
+    title: "M Column (ま み む め も)",
+    values: [
+      {
+        kana: "ま",
+        kanaTranslation: "MA",
+        dakuten: null,
+        dakutenTranslation: null,
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
+      },
+
+      {
+        kana: "み",
+        kanaTranslation: "MI",
+        dakuten: null,
+        dakutenTranslation: null,
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
+      },
+
+      {
+        kana: "む",
+        kanaTranslation: "MU",
+        dakuten: null,
+        dakutenTranslation: null,
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
+      },
+
+      {
+        kana: "め",
+        kanaTranslation: "ME",
+        dakuten: null,
+        dakutenTranslation: null,
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
+      },
+
+      {
+        kana: "も",
+        kanaTranslation: "MO",
+        dakuten: null,
+        dakutenTranslation: null,
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
+      },
+    ],
+
+    words: [
+      {
+        kanaWord: "replace_with_actual_word",
+        translation: "replace_with_actual_translation",
+      },
+    ],
+    practice: [
+      {
+        kana: "ま",
+        value: "MA",
+      },
+
+      {
+        kana: "み",
+        value: "MI",
+      },
+
+      {
+        kana: "む",
+        value: "MU",
+      },
+
+      {
+        kana: "め",
+        value: "ME",
+      },
+
+      {
+        kana: "も",
+        value: "MO",
+      },
+
+    ],
+  },
+
+  {
+    title: "R Column (ら り る れ ろ)",
+    values: [
+      {
+        kana: "ら",
+        kanaTranslation: "RA",
+        dakuten: null,
+        dakutenTranslation: null,
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
+      },
+
+      {
+        kana: "り",
+        kanaTranslation: "RI",
+        dakuten: null,
+        dakutenTranslation: null,
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
+      },
+
+      {
+        kana: "る",
+        kanaTranslation: "RU",
+        dakuten: null,
+        dakutenTranslation: null,
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
+      },
+
+      {
+        kana: "れ",
+        kanaTranslation: "RE",
+        dakuten: null,
+        dakutenTranslation: null,
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
+      },
+
+      {
+        kana: "ろ",
+        kanaTranslation: "RO",
+        dakuten: null,
+        dakutenTranslation: null,
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
+      },
+    ],
+
+    words: [
+      {
+        kanaWord: "replace_with_actual_word",
+        translation: "replace_with_actual_translation",
+      },
+    ],
+    practice: [
+      {
+        kana: "ら",
+        value: "RA",
+      },
+
+      {
+        kana: "り",
+        value: "RI",
+      },
+
+      {
+        kana: "る",
+        value: "RU",
+      },
+
+      {
+        kana: "れ",
+        value: "RE",
+      },
+
+      {
+        kana: "ろ",
+        value: "RO",
+      },
+
+    ],
+  },
+
+  {
+    title: "Y Column (や ゆ よ)",
+    values: [
+      {
+        kana: "や",
+        kanaTranslation: "YA",
+        dakuten: null,
+        dakutenTranslation: null,
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
+      },
+
+      {
+        kana: "ゆ",
+        kanaTranslation: "YU",
+        dakuten: null,
+        dakutenTranslation: null,
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
+      },
+
+      {
+        kana: "よ",
+        kanaTranslation: "YO",
+        dakuten: null,
+        dakutenTranslation: null,
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
+      },
+    ],
+
+    words: [
+      {
+        kanaWord: "replace_with_actual_word",
+        translation: "replace_with_actual_translation",
+      },
+    ],
+    practice: [
+      {
+        kana: "や",
+        value: "YA",
+      },
+
+      {
+        kana: "ゆ",
+        value: "YU",
+      },
+
+      {
+        kana: "よ",
+        value: "YO",
+      }
+
+    ],
+  },
+
+  {
+    title: "Diagraphs (ya/yu/yo + consontants)",
+    values: [
+      {
+        kana: "きゃ",
+        kanaTranslation: "Kya",
+        dakuten: null,
+        dakutenTranslation: null,
+        handakuten: "ぎゃ",
+        handakutenTranslation: "Gya",
+        mention: null,
+      },
+
+      {
+        kana: "きゅ",
+        kanaTranslation: "Kyu",
+        dakuten: null,
+        dakutenTranslation: null,
+        handakuten: "ぎゅ",
+        handakutenTranslation: "Gyu",
+        mention: null,
+      },
+
+      {
+        kana: "きょ",
+        kanaTranslation: "Kyo",
+        dakuten: null,
+        dakutenTranslation: null,
+        handakuten: "ぎょ",
+        handakutenTranslation: "Gyo",
+        mention: null,
+      },
+
+
+      {
+        kana: "しゃ",
+        kanaTranslation: "Sha",
+        dakuten: null,
+        dakutenTranslation: null,
+        handakuten: "じゃ",
+        handakutenTranslation: "Ja",
+        mention: null,
+      },
+
+
+      {
+        kana: "しゅ",
+        kanaTranslation: "Shu",
+        dakuten: null,
+        dakutenTranslation: null,
+        handakuten: "じゅ",
+        handakutenTranslation: "Ju",
+        mention: null,
+      },
+
+      {
+        kana: "しょ",
+        kanaTranslation: "Sho",
+        dakuten: null,
+        dakutenTranslation: null,
+        handakuten: "じょ",
+        handakutenTranslation: "Jo",
+        mention: null,
+      },
+
+      {
+        kana: "ちゃ",
+        kanaTranslation: "Cha",
+        dakuten: null,
+        dakutenTranslation: null,
+        handakuten: "ぢゃ",
+        handakutenTranslation: "Ja",
+        mention: null,
+      },
+
+
+      {
+        kana: "ちゅ",
+        kanaTranslation: "Chu",
+        dakuten: null,
+        dakutenTranslation: null,
+        handakuten: "ぢゅ",
+        handakutenTranslation: "Ju",
+        mention: null,
+      },
+
+      {
+        kana: "ちょ",
+        kanaTranslation: "Cho",
+        dakuten: null,
+        dakutenTranslation: null,
+        handakuten: "ぢょ",
+        handakutenTranslation: "Jo",
+        mention: null,
+      },
+
+      {
+        kana: "にゃ",
+        kanaTranslation: "Nya",
+        dakuten: null,
+        dakutenTranslation: null,
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
+      },
+
+      {
+        kana: "にゅ",
+        kanaTranslation: "Nyu",
+        dakuten: null,
+        dakutenTranslation: null,
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
+      },
+
+      {
+        kana: "にょ",
+        kanaTranslation: "Nyo",
+        dakuten: null,
+        dakutenTranslation: null,
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
+      },
+
+      {
+        kana: "ひゃ",
+        kanaTranslation: "Hya",
+        dakuten: "びゃ",
+        dakutenTranslation: "Bya",
+        handakuten: "ぴょ",
+        handakutenTranslation: "Pyo",
+        mention: null,
+      },
+
+      {
+        kana: "ひゅ",
+        kanaTranslation: "Hyu",
+        dakuten: "びゅ",
+        dakutenTranslation: "Byu",
+        handakuten: "ぴゅ",
+        handakutenTranslation: "Pyu",
+        mention: null,
+      },
+
+      {
+        kana: "ひょ",
+        kanaTranslation: "Hyo",
+        dakuten: "びょ",
+        dakutenTranslation: "Byo",
+        handakuten: "ぴょ",
+        handakutenTranslation: "Pyo",
+        mention: null,
+      },
+
+
+      {
+        kana: "みゃ",
+        kanaTranslation: "Mya",
+        dakuten: null,
+        dakutenTranslation: null,
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
+      },
+
+      {
+        kana: "みゅ",
+        kanaTranslation: "Myu",
+        dakuten: null,
+        dakutenTranslation: null,
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
+      },
+
+      {
+        kana: "みょ",
+        kanaTranslation: "Myo",
+        dakuten: null,
+        dakutenTranslation: null,
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
+      },
+
+      {
+        kana: "りゃ",
+        kanaTranslation: "Rya",
+        dakuten: null,
+        dakutenTranslation: null,
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
+      },
+
+      {
+        kana: "りゅ",
+        kanaTranslation: "Ryu",
+        dakuten: null,
+        dakutenTranslation: null,
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
+      },
+
+      {
+        kana: "りょ",
+        kanaTranslation: "Ryo",
+        dakuten: null,
+        dakutenTranslation: null,
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
+      },
+    ],
+
+    words: [
+      {
+        kanaWord: "replace_with_actual_word",
+        translation: "replace_with_actual_translation",
+      },
+    ],
+    practice: [
+      {
+        kana: "きゃ",
+        value: "Kya",
+      },
+
+      {
+        kana: "ぎゃ",
+        value: "Gya",
+      },
+
+      {
+        kana: "きゅ",
+        value: "Kyu",
+      },
+
+      {
+        kana: "ぎゅ",
+        value: "Gyu",
+      },
+
+      {
+        kana: "きょ",
+        value: "Kyo"
+      },
+
+      {
+        kana: "ぎょ",
+        value: "Gyo"
+      },
+
+
+      {
+        kana: "しゃ",
+        value: "Sha"
+      },
+
+      {
+        kana: "じゃ",
+        value: "Ja"
+      },
+
+      {
+        kana: "しゅ",
+        value: "Shu"
+      },
+
+      {
+        kana: "じゅ",
+        value: "Ju"
+      },
+
+      {
+        kana: "しょ",
+        value: "Sho"
+      },
+
+      {
+        kana: "じょ",
+        value: "Jo"
+      },
+
+
+      {
+        kana: "ちゃ",
+        value: "Cha"
+      },
+
+      {
+        kana: " ぢゃ",
+        value: "Ja"
+      },
+
+      {
+        kana: "ちゅ",
+        value: "Chu"
+      },
+
+      {
+        kana: "ぢゅ",
+        value: "Ju"
+      },
+
+      {
+        kana: "ちょ",
+        value: "Cho"
+      },
+
+
+      {
+        kana: "ぢょ",
+        value: "Jo"
+      },
+
+      {
+        kana: "にゃ",
+        value: "Nya"
+      },
+
+
+      {
+        kana: "にゅ",
+        value: "Nyu"
+      }
+
+
+    ],
+  },
 ];
 
 /*
