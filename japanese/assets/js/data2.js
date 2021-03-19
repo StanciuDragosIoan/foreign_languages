@@ -1169,8 +1169,8 @@ const columns = [
         kanaTranslation: "Cha",
         dakuten: null,
         dakutenTranslation: null,
-        handakuten: "ぢゃ",
-        handakutenTranslation: "Ja",
+        handakuten: null,
+        handakutenTranslation: null,
         mention: null,
       },
 
@@ -1180,8 +1180,8 @@ const columns = [
         kanaTranslation: "Chu",
         dakuten: null,
         dakutenTranslation: null,
-        handakuten: "ぢゅ",
-        handakutenTranslation: "Ju",
+        handakuten: null,
+        handakutenTranslation: null,
         mention: null,
       },
 
@@ -1190,8 +1190,8 @@ const columns = [
         kanaTranslation: "Cho",
         dakuten: null,
         dakutenTranslation: null,
-        handakuten: "ぢょ",
-        handakutenTranslation: "Jo",
+        handakuten: null,
+        handakutenTranslation: null,
         mention: null,
       },
 
@@ -1230,8 +1230,8 @@ const columns = [
         kanaTranslation: "Hya",
         dakuten: "びゃ",
         dakutenTranslation: "Bya",
-        handakuten: "ぴょ",
-        handakutenTranslation: "Pyo",
+        handakuten: "ぴゃ",
+        handakutenTranslation: "Pya",
         mention: null,
       },
 
@@ -1402,19 +1402,8 @@ const columns = [
       },
 
       {
-        kana: "ぢゅ",
-        value: "Ju"
-      },
-
-      {
         kana: "ちょ",
         value: "Cho"
-      },
-
-
-      {
-        kana: "ぢょ",
-        value: "Jo"
       },
 
       {
@@ -1843,11 +1832,6 @@ const values = [
   },
 
   {
-    kana: "ぢゃ",
-    value: "ja",
-  },
-
-  {
     kana: "ちゅ",
     value: "chu",
   },
@@ -1860,11 +1844,6 @@ const values = [
   {
     kana: "ちょ",
     value: "cho",
-  },
-
-  {
-    kana: "ぢょ",
-    value: "jo",
   },
 
   {
