@@ -20,11 +20,13 @@ const toggleTranslation = (e) => {
     if (e.target.value.toLowerCase() !== answer.toLowerCase()) {
       label.style.border = "5px solid red";
       input.style.border = "5px solid red";
-      label.innerText = "Wrong! X_x";
+      label.innerText= "Boo! X_x";
+      label.style.color = "red";
     } else {
       label.style.border = "5px solid green";
       input.style.border = "5px solid green";
-      label.innerText = "Correct! ^_^";
+      label.innerText = "Bingo! ^_^";
+      label.style.color = "green";
     }
   };
 
