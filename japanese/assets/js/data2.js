@@ -1,5 +1,4 @@
 const columns = [
-
   // vowels
   {
     title: "vowels (あ い う え お)",
@@ -107,9 +106,8 @@ const columns = [
         kana: "お",
         value: "o",
       },
-    ]
+    ],
   },
-
 
   {
     title: "K Column (か き く け こ)",
@@ -421,22 +419,22 @@ const columns = [
 
       {
         kana: "ぜ",
-        translation: "ZE",
+        value: "ZE",
       },
 
       {
         kana: "そ",
-        translation: "SO",
+        value: "SO",
       },
 
       {
         kana: "ぞ",
-        translation: "ZO",
+        value: "ZO",
       },
 
       {
         kana: "ソ",
-        translation: "SO",
+        value: "SO",
       },
     ],
   },
@@ -495,32 +493,7 @@ const columns = [
             Show
           </button>
         </p>
-        <p class="text center">
-          て
-          <span class="kana text-center"> (TE) </span>
-          <button onclick="toggleTranslation(event)" class="toggler-btn" style="background-color: rgb(189, 14, 81);">Hide</button>
-        </p>
         `,
-      },
-
-      {
-        kana: "せ",
-        kanaTranslation: "SE",
-        dakuten: "ぜ",
-        dakutenTranslation: "ZE",
-        handakuten: null,
-        handakutenTranslation: null,
-        mention: null,
-      },
-
-      {
-        kana: "そ",
-        kanaTranslation: "SO",
-        dakuten: "ぞ",
-        dakutenTranslation: "ZO",
-        handakuten: null,
-        handakutenTranslation: null,
-        mention: null,
       },
     ],
 
@@ -592,63 +565,36 @@ const columns = [
     ],
     practice: [
       {
-        kana: "さ",
-        value: "SA",
+        kana: "た",
+        value: "TA",
       },
 
       {
-        kana: "ざ",
-        value: "ZA",
+        kana: "だ",
+        value: "DA",
       },
 
       {
-        kana: "し",
-        value: "SHI",
+        kana: "ち",
+        value: "CHI",
       },
 
       {
-        kana: "じ",
+        kana: "ぢ",
         value: "DJI",
       },
 
       {
-        kana: "す",
-        value: "SU",
+        kana: "つ",
+        value: "TSU",
       },
 
       {
-        kana: "ず",
-        value: "ZU",
-      },
-
-      {
-        kana: "せ",
-        translation: "SE",
-      },
-
-      {
-        kana: "ぜ",
-        translation: "ZE",
-      },
-
-      {
-        kana: "そ",
-        translation: "SO",
-      },
-
-      {
-        kana: "ぞ",
-        translation: "ZO",
-      },
-
-      {
-        kana: "ソ",
-        translation: "SO",
+        kana: "づ",
+        value: "DZU",
       },
     ],
   },
-
-
 
   {
     title: "N Column (な に ぬ ね の)",
@@ -765,7 +711,7 @@ const columns = [
         kana: "は",
         kanaTranslation: "HA",
         dakuten: "ば",
-        dakutenTranslation:"BA",
+        dakutenTranslation: "BA",
         handakuten: "ぱ",
         handakutenTranslation: "PA",
         mention: null,
@@ -881,45 +827,41 @@ const columns = [
 
       {
         kana: "ぷ",
-        value: "PU"
+        value: "PU",
       },
 
       {
         kana: "へ",
-        value: "HE"
+        value: "HE",
       },
 
       {
         kana: "ベ",
-        value: "BE"
+        value: "BE",
       },
 
       {
         kana: "ペ",
-        value: "PE"
+        value: "PE",
       },
 
       {
         kana: "ほ",
-        value: "HO"
+        value: "HO",
       },
 
       {
         kana: "ぼ",
-        value: "BO"
+        value: "BO",
       },
 
       {
         kana: "ぽ",
-        value: "PO"
-      }
+        value: "PO",
+      },
     ],
   },
-
-    
-  
 ];
-
 
 /*
  * practice all kana values

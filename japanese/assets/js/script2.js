@@ -34,8 +34,7 @@ const toggleTranslation = (e) => {
  * shuffle array of values
  */
 
-function shuffle(array) { 
-
+function shuffle(array) {
   let currentIndex = array.length;
   let temporaryValue;
   let randomIndex;
@@ -54,4 +53,3 @@ function shuffle(array) {
 
   return array;
 }
-  
