@@ -1,0 +1,1293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Domine:wght@400;700&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/main.css" type="text/css" />
+    <title>Japanese Writing</title>
+  </head>
+  <body>
+    <h1 class="header">Japanese Writing</h1>
+
+    <p class="text">
+      There are 3 alphabetes in Japanese: <span class="snippet">Hiragana</span>,
+      <span class="snippet">Katakana</span> and
+      <span class="snippet">Kanji</span>.
+    </p>
+    <p class="text">
+      <span class="snippet">Hiragana</span> is the basic Japanese alphabet.
+      Contrary to the English alphabet however, each character represents one
+      syllable sound.
+    </p>
+    <p class="text">
+      The second script used in Japanese is
+      <span class="snippet">Katakana</span>. Each
+      <span class="snippet">Katakana</span>
+      character represents the same syllable as its Hiragana counterpart.
+      However, it is written a bit differently and is used mostly for foreign
+      words.
+    </p>
+    <p class="header">Hiragana</p>
+    <p class="text">
+      <span class="snippet">Hiragana</span> is the basic Japanese alphabet.
+      Contrary to the English alphabet however, each character represents one
+      syllable sound (a phoneme). It comprises the below table:
+    </p>
+    <br />
+    <div class="devPic">
+      <img src="./assets/img/hiragana.svg.png" alt="" />
+    </div>
+    <div id="hiraganaColumns"></div>
+    <!-- <h1 style="text-align: center">TEST DYNAMIC #HERE ##############</h1> -->
+    <p class="text center underline">The Hiragana Vowels (あ,い,う,え,お)</p>
+    <p class="text center">
+      あ
+      <span class="hide"> (A) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+    <p class="text center">
+      い
+      <span class="hide"> (i) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+    <p class="text center">
+      う
+      <span class="hide"> (U) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+    <p class="text center">
+      え
+      <span class="hide"> (E) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+    <p class="text center">
+      お
+      <span class="hide"> (O) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+    <p class="text center bold">Basic words with the first 5 vowels</p>
+
+    <p class="text center">
+      あい
+      <span class="hide"> (Love) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      い
+      <span class="hide"> (Stomach) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+    <p class="text center">
+      いいえ
+      <span class="hide"> (No) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      うえ
+      <span class="hide"> (Up/Above) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      あお
+      <span class="hide"> (Blue) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+    <div class="practice-columnA"></div>
+    <p class="text center underline">The Hiragana K Column (か き く け こ)</p>
+    <p class="text center">
+      か
+      <span class="hide"> (KA) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+    <p class="text center">
+      *with the <span class="snippet">゛</span> (dakuten) dyacritic this becomes
+      <span class="snippet">が </span>
+      <span class="hide"> (GA) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      き
+      <span class="hide"> (KI) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+    <p class="text center">
+      *with the <span class="snippet">゛</span> (dakuten) dyacritic this becomes
+      <span class="snippet">ぎ </span>
+      <span class="hide"> (GI) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      く
+      <span class="hide"> (KU) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+    <p class="text center">
+      *with the <span class="snippet">゛</span> (dakuten) dyacritic this becomes
+      <span class="snippet">ぐ </span>
+      <span class="hide"> (GU) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      け
+      <span class="hide"> (KE) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+    <p class="text center">
+      *with the <span class="snippet">゛</span> (dakuten) dyacritic this becomes
+      <span class="snippet">げ </span>
+      <span class="hide"> (GE) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      こ
+      <span class="hide"> (KO) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+    <p class="text center">
+      *with the <span class="snippet">゛</span> (dakuten) dyacritic this becomes
+      <span class="snippet">ご </span>
+      <span class="hide"> (GO) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center bold">More basic words with the K column</p>
+
+    <p class="text center">
+      か
+      <span class="hide"> (Mosquito) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      かく
+      <span class="hide"> (To write) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      かげ
+      <span class="hide"> (Shadow) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      きく
+      <span class="hide"> (To listen) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      こえ
+      <span class="hide"> (Voice) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      かぎ
+      <span class="hide"> (Key) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      きおく
+      <span class="hide"> (Memory) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      えいが
+      <span class="hide"> (Movie) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      おおきい
+      <span class="hide"> (Big) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+    <div class="practice-columnK"></div>
+    <p class="text center underline">The Hiragana S Column (さ し す せ そ)</p>
+    <p class="text center">
+      さ
+      <span class="hide"> (SA) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+    <p class="text center">
+      *with the <span class="snippet">゛</span> (dakuten) dyacritic this becomes
+      <span class="snippet">ざ </span>
+      <span class="hide"> (ZA) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      し
+      <span class="hide"> (SHI) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+    <p class="text center">
+      *with the <span class="snippet">゛</span> (dakuten) dyacritic this becomes
+      <span class="snippet">じ </span>
+      <span class="hide"> (DJI) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      す
+      <span class="hide"> (SU) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+    <p class="text center">
+      *with the <span class="snippet">゛</span> (dakuten) dyacritic this becomes
+      <span class="snippet">ず </span>
+      <span class="hide"> (ZU) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      せ
+      <span class="hide"> (SE) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+    <p class="text center">
+      *with the <span class="snippet">゛</span> (dakuten) dyacritic this becomes
+      <span class="snippet">ぜ </span>
+      <span class="hide"> (ZE) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      そ
+      <span class="hide"> (SO) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+    <p class="text center">
+      *with the <span class="snippet">゛</span> (dakuten) dyacritic this becomes
+      <span class="snippet">ぞ </span>
+      <span class="hide"> (ZO) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+    <p class="text center">
+      *the letter <span class="snippet">そ</span> has a second variant (which is
+      <span class="snippet">ソ</span> )
+    </p>
+    <p class="text center bold">More basic words with the S column</p>
+    <p class="text center">
+      すし
+      <span class="hide"> (Sushi) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      ず
+      <span class="hide"> (Diagram) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      じこ
+      <span class="hide"> (Accident) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      すき
+      <span class="hide"> (Like) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      さく
+      <span class="hide"> (To bloom) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      ぞう
+      <span class="hide"> (Elephant) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      おかし
+      <span class="hide">
+        (Sweets) variant <span class="snippet">おかしい</span> means weird -
+        adjective
+      </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      おさけ
+      <span class="hide"> (Alcohool) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      さいご
+      <span class="hide"> (Last) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      そうぞう
+      <span class="hide"> (Imagination) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      こうこうせい
+      <span class="hide"> (Highschool student) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      かえす
+      <span class="hide"> (To return) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      うさぎ
+      <span class="hide"> (Rabbit) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+    <p class="text center underline">
+      The Hiragana T Column (た　ち　つ　て　と)
+    </p>
+
+    <p class="text center">
+      た
+      <span class="hide"> (TA) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+    <p class="text center">
+      *with the <span class="snippet">゛</span> (dakuten) dyacritic this becomes
+      <span class="snippet">だ </span>
+      <span class="hide"> (DA) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      ち
+      <span class="hide"> (CHI) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+    <p class="text center">
+      *with the <span class="snippet">゛</span> (dakuten) dyacritic this becomes
+      <span class="snippet">ぢ </span>
+      <span class="hide"> (DJI) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      つ
+      <span class="hide"> (TSU) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+    <p class="text center">
+      *with the <span class="snippet">゛</span> (dakuten) dyacritic this becomes
+      <span class="snippet">づ </span>
+      <span class="hide"> (DZU) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+    <p class="text center">
+      *note that a smaller <span class="snippet">つ</span> (
+      <span class="snippet">っ</span> ) is used to elongate the pronounciation
+      of certain consonants:
+    </p>
+    <p class="text center">
+      *Smaller <span class="snippet">っ</span> is spelled/pronounced: chiisana
+      tsu (小さなつ)
+    </p>
+    <p class="text center">
+      かっこいい
+      <span class="hide"> (Cool) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+    <p class="text center">
+      じっか
+      <span class="hide"> (one's family home) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      て
+      <span class="hide"> (TE) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+    <p class="text center">
+      *with the <span class="snippet">゛</span> (dakuten) dyacritic this becomes
+      <span class="snippet">で </span>
+      <span class="hide"> (DE) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      と
+      <span class="hide"> (TO) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+    <p class="text center">
+      *with the <span class="snippet">゛</span> (dakuten) dyacritic this becomes
+      <span class="snippet">ど </span>
+      <span class="hide"> (DO) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center bold">More basic words with the T column</p>
+    <p class="text center">
+      て
+      <span class="hide"> (Hand) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+    <p class="text center">
+      くつ
+      <span class="hide"> (Shoes) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+    <p class="text center">
+      ちず
+      <span class="hide"> (Map) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+    <p class="text center">
+      だいがく
+      <span class="hide"> (University) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+    <p class="text center">
+      あさって
+      <span class="hide"> (The day after tomorrow) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+    <p class="text center">
+      おちつく
+      <span class="hide"> (To calm down) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center underline">The Hiragana N Column (な に ぬ ね の)</p>
+
+    <p class="text center">
+      な
+      <span class="hide"> (NA) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      に
+      <span class="hide"> (NI) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      ぬ
+      <span class="hide"> (NU) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      ね
+      <span class="hide"> (NE) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      の
+      <span class="hide"> (NO) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center bold">More basic words with the N column</p>
+    <p class="text center">
+      なに
+      <span class="hide"> (What) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+    <p class="text center">
+      いぬ
+      <span class="hide"> (Dog) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+    <p class="text center">
+      ねこ
+      <span class="hide"> (Cat) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+    <p class="text center">
+      おかね
+      <span class="hide"> (Money) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+    <p class="text center">
+      おねがい
+      <span class="hide"> (Please/Request) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center underline">
+      The Hiragana H Column (は　ひ　ふ　へ　ほ)
+    </p>
+
+    <p class="text center">
+      は
+      <span class="hide"> (HA) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+    <p class="text center">
+      *with the <span class="snippet">゛</span> (dakuten) dyacritic this becomes
+      <span class="snippet">ば </span>
+      <span class="hide"> (BA) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+    <p class="text center">
+      *with the <span class="snippet">ﾟ</span> (handakuten) dyacritic this
+      becomes
+      <span class="snippet">ぱ </span>
+      <span class="hide"> (PA) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      ひ
+      <span class="hide"> (HI) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+    <p class="text center">
+      *with the <span class="snippet">゛</span> (dakuten) dyacritic this becomes
+      <span class="snippet">び </span>
+      <span class="hide"> (BI) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+    <p class="text center">
+      *with the <span class="snippet">ﾟ</span> (handakuten) dyacritic this
+      becomes
+      <span class="snippet">ぴ </span>
+      <span class="hide"> (PI) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      ふ
+      <span class="hide"> (FU) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+    <p class="text center">
+      *with the <span class="snippet">゛</span> (dakuten) dyacritic this becomes
+      <span class="snippet">ぶ </span>
+      <span class="hide"> (BU) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+    <p class="text center">
+      *with the <span class="snippet">ﾟ</span> (handakuten) dyacritic this
+      becomes
+      <span class="snippet">ぷ </span>
+      <span class="hide"> (PU) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      へ
+      <span class="hide"> (HE) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+    <p class="text center">
+      *with the <span class="snippet">゛</span> (dakuten) dyacritic this becomes
+      <span class="snippet">ベ </span>
+      <span class="hide"> (BE) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+    <p class="text center">
+      *with the <span class="snippet">ﾟ</span> (handakuten) dyacritic this
+      becomes
+      <span class="snippet">ペ </span>
+      <span class="hide"> (PE) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      ほ
+      <span class="hide"> (HO) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+    <p class="text center">
+      *with the <span class="snippet">゛</span> (dakuten) dyacritic this becomes
+      <span class="snippet">ぼ </span>
+      <span class="hide"> (BO) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+    <p class="text center">
+      *with the <span class="snippet">ﾟ</span> (handakuten) dyacritic this
+      becomes
+      <span class="snippet">ぽ </span>
+      <span class="hide"> (PO) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center underline">The Hiragana M Column (ま み む め も)</p>
+
+    <p class="text center">
+      ま
+      <span class="hide"> (MA) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+    <p class="text center">
+      み
+      <span class="hide"> (MI) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+    <p class="text center">
+      む
+      <span class="hide"> (MU) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+    <p class="text center">
+      め
+      <span class="hide"> (ME) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+    <p class="text center">
+      も
+      <span class="hide"> (MO) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center underline">The Hiragana R Column (ら り る れ ろ)</p>
+
+    <p class="text center">
+      ら
+      <span class="hide"> (RA) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      り
+      <span class="hide"> (RI) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      る
+      <span class="hide"> (RU) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      れ
+      <span class="hide"> (RE) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      ろ
+      <span class="hide"> (RO) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center underline">The Hiragana Y Column (や ゆ よ)</p>
+    <p class="text center">
+      や
+      <span class="hide"> (IA) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      ゆ
+      <span class="hide"> (IU) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      よ
+      <span class="hide"> (IO) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+    <p class="text center underline">
+      The Hiragana Diagraphs (ya/yu/yo + consontants)
+    </p>
+    <p class="text center">
+      きゃ
+      <span class="hide"> (Kya) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+    <p class="text center">
+      *with the <span class="snippet">ﾟ</span> (handakuten) dyacritic this
+      becomes
+      <span class="snippet">ぎゃ </span>
+      <span class="hide"> (Gya) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      きゅ
+      <span class="hide"> (Kyu) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+    <p class="text center">
+      *with the <span class="snippet">ﾟ</span> (handakuten) dyacritic this
+      becomes
+      <span class="snippet">ぎゅ </span>
+      <span class="hide"> (Gyu) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      きょ
+      <span class="hide"> (Kyo) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      *with the <span class="snippet">ﾟ</span> (handakuten) dyacritic this
+      becomes
+      <span class="snippet">ぎょ </span>
+      <span class="hide"> (Gyo) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      しゃ
+      <span class="hide"> (Sha) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      *with the <span class="snippet">ﾟ</span> (handakuten) dyacritic this
+      becomes
+      <span class="snippet">じゃ </span>
+      <span class="hide"> (Ja) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      しゅ
+      <span class="hide"> (Shu) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      *with the <span class="snippet">ﾟ</span> (handakuten) dyacritic this
+      becomes
+      <span class="snippet">じゅ </span>
+      <span class="hide"> (JU) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      しょ
+      <span class="hide"> (Sho) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      *with the <span class="snippet">ﾟ</span> (handakuten) dyacritic this
+      becomes
+      <span class="snippet">じょ </span>
+      <span class="hide"> (Jo) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      ちゃ
+      <span class="hide"> (Cha) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      *with the <span class="snippet">ﾟ</span> (handakuten) dyacritic this
+      becomes
+      <span class="snippet">ぢゃ </span>
+      <span class="hide"> (Ja) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      ちゅ
+      <span class="hide"> (Chu) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      *with the <span class="snippet">ﾟ</span> (handakuten) dyacritic this
+      becomes
+      <span class="snippet">ぢゅ </span>
+      <span class="hide"> (Ju) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      ちょ
+      <span class="hide"> (Cho) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      *with the <span class="snippet">ﾟ</span> (handakuten) dyacritic this
+      becomes
+      <span class="snippet">ぢょ </span>
+      <span class="hide"> (Jo) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      にゃ
+      <span class="hide"> (Nya) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      にゅ
+      <span class="hide"> (Nyu) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      にょ
+      <span class="hide"> (Nyo) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      ひゃ
+      <span class="hide"> (Hya) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+    <p class="text center">
+      *with the <span class="snippet">゛</span> (dakuten) dyacritic this becomes
+      <span class="snippet">びゃ </span>
+      <span class="hide"> (Bya) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      *with the <span class="snippet">ﾟ</span> (handakuten) dyacritic this
+      becomes
+      <span class="snippet">ぴょ </span>
+      <span class="hide"> (Pyo) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      ひゅ
+      <span class="hide"> (Hyu) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+    <p class="text center">
+      *with the <span class="snippet">゛</span> (dakuten) dyacritic this becomes
+      <span class="snippet">びゅ </span>
+      <span class="hide"> (Byu) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      *with the <span class="snippet">ﾟ</span> (handakuten) dyacritic this
+      becomes
+      <span class="snippet">ぴゅ </span>
+      <span class="hide"> (Pyu) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      ひょ
+      <span class="hide"> (Hyo) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+    <p class="text center">
+      *with the <span class="snippet">゛</span> (dakuten) dyacritic this becomes
+      <span class="snippet">びょ </span>
+      <span class="hide"> (Byo) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      *with the <span class="snippet">ﾟ</span> (handakuten) dyacritic this
+      becomes
+      <span class="snippet">ぴょ </span>
+      <span class="hide"> (Pyo) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      みゃ
+      <span class="hide"> (Mya) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      みゅ
+      <span class="hide"> (Myu) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      みょ
+      <span class="hide"> (Myo) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      りゃ
+      <span class="hide"> (Rya) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      りゅ
+      <span class="hide"> (Ryu) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      りょ
+      <span class="hide"> (Ryo) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center underline">The Hiragana W Column (わ を ん)</p>
+    <p class="text center">
+      わ
+      <span class="hide"> (WA) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      を
+      <span class="hide"> (WO/O) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <p class="text center">
+      ん
+      <span class="hide"> (N - nasal) </span>
+      <button onclick="toggleTranslation(event)" class="toggler-btn">
+        Show
+      </button>
+    </p>
+
+    <!--  -->
+
+    <!-- practice -->
+    <p class="text center bold">Practice section</p>
+    <div id="practiceTemplates"></div>
+
+    <!-- dictionary
+    https://bestiary.japanesewithanime.com/animals/mosquito-in-japanese#:~:text=The%20word%20%22Mosquito%22%20katakanized%20would%20be%20mosuk%C4%ABto%20%E3%83%A2%E3%82%B9%E3%82%AD%E3%83%BC%E3%83%88. 
+  
+  https://www.japanesepod101.com/lesson/how-to-write-in-japanese-hiragana-and-katakana-2-the-hiragana-k-column/
+
+
+  copy all the wors throughout the videos
+
+  dictionary: https://jisho.org/search/cat
+
+  https://www.learnwitholiver.com/japanese/show-words-search-guest.php
+
+-->
+    <script src="./assets/js/data.js"></script>
+    <script src="./assets/js/miniFrame.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
