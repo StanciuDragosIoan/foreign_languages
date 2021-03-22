@@ -1415,6 +1415,91 @@ const columns = [
       {
         kana: "にゅ",
         value: "Nyu"
+      },
+
+      {
+        kana: "にょ",
+        value: "Nyo"
+      },
+
+      {
+        kana: "ひゃ",
+        value: "Hya"
+      },
+
+      {
+        kana: "ひゅ",
+        value: "Hyu"
+      },
+
+      {
+        kana: "ひゅ",
+        value: "Hyu"
+      },
+
+      {
+        kana: "ひょ",
+        value: "Hyo"
+      },
+
+      {
+        kana: "びゃ",
+        value: "Bya"
+      },
+
+      {
+        kana: "びゅ",
+        value: "Byu"
+      },
+
+      {
+        kana: "びょ",
+        value: "Byo"
+      },
+
+      {
+        kana: "ぴゃ",
+        value: "Pya"
+      },
+
+      {
+        kana: "ぴゅ",
+        value: "Pyu"
+      },
+
+      {
+        kana: "ぴょ",
+        value: "Pyo"
+      },
+
+      {
+        kana: "みゃ",
+        value: "Mya"
+      },
+
+      {
+        kana: "みゅ",
+        value: "Myu"
+      },
+
+      {
+        kana: "みょ",
+        value: "Myo"
+      },
+
+      {
+        kana: "りゃ",
+        value: "Rya"
+      },
+
+      {
+        kana: "りゅ",
+        value: "Ryu"
+      },
+
+      {
+        kana: "りょ",
+        value: "Ryo"
       }
 
 
