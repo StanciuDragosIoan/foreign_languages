@@ -11,7 +11,6 @@ const displayColumns = (columns) => {
         </p>
         `;
 
-
     i.values.forEach((value) => {
       globalOutput += `    
             <p class="text center">
@@ -22,12 +21,8 @@ const displayColumns = (columns) => {
                 </button>
             </p>
             
-            ${value.mention !== null ?
-              value.mention : ''
-              }
+            ${value.mention !== null ? value.mention : ""}
             `;
-
-        
 
       if (value.dakuten !== null) {
         globalOutput += `
@@ -57,9 +52,6 @@ const displayColumns = (columns) => {
       }
     });
 
-
-   
-
     if (i.words.length > 0) {
       globalOutput += `
             <p class="text center bold"> Basic words with the  ${i.title}</p>
@@ -77,9 +69,6 @@ const displayColumns = (columns) => {
               `;
       });
     }
-
-
-    
 
     if (i.practice.length > 0) {
       globalOutput += `
@@ -133,14 +122,9 @@ const renderAllPracticeTemplates = (practiceTemplates, selector) => {
   outputDiv.innerHTML = output;
 };
 
-
 //method calls
-columns.map((column) => {
-  shuffle(column.practice);
-  shuffle(column.words);
-});
 
-displayColumns(columns);columns.map((column) => {
+columns.map((column) => {
   shuffle(column.practice);
   shuffle(column.words);
 });

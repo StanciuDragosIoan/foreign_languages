@@ -947,7 +947,6 @@ const columns = [
         kana: "も",
         value: "MO",
       },
-
     ],
   },
 
@@ -1036,7 +1035,6 @@ const columns = [
         kana: "ろ",
         value: "RO",
       },
-
     ],
   },
 
@@ -1094,8 +1092,7 @@ const columns = [
       {
         kana: "よ",
         value: "YO",
-      }
-
+      },
     ],
   },
 
@@ -1132,7 +1129,6 @@ const columns = [
         mention: null,
       },
 
-
       {
         kana: "しゃ",
         kanaTranslation: "Sha",
@@ -1142,7 +1138,6 @@ const columns = [
         handakutenTranslation: "Ja",
         mention: null,
       },
-
 
       {
         kana: "しゅ",
@@ -1173,7 +1168,6 @@ const columns = [
         handakutenTranslation: null,
         mention: null,
       },
-
 
       {
         kana: "ちゅ",
@@ -1254,7 +1248,6 @@ const columns = [
         handakutenTranslation: "Pyo",
         mention: null,
       },
-
 
       {
         kana: "みゃ",
@@ -1346,163 +1339,217 @@ const columns = [
 
       {
         kana: "きょ",
-        value: "Kyo"
+        value: "Kyo",
       },
 
       {
         kana: "ぎょ",
-        value: "Gyo"
+        value: "Gyo",
       },
-
 
       {
         kana: "しゃ",
-        value: "Sha"
+        value: "Sha",
       },
 
       {
         kana: "じゃ",
-        value: "Ja"
+        value: "Ja",
       },
 
       {
         kana: "しゅ",
-        value: "Shu"
+        value: "Shu",
       },
 
       {
         kana: "じゅ",
-        value: "Ju"
+        value: "Ju",
       },
 
       {
         kana: "しょ",
-        value: "Sho"
+        value: "Sho",
       },
 
       {
         kana: "じょ",
-        value: "Jo"
+        value: "Jo",
       },
-
 
       {
         kana: "ちゃ",
-        value: "Cha"
+        value: "Cha",
       },
 
       {
         kana: " ぢゃ",
-        value: "Ja"
+        value: "Ja",
       },
 
       {
         kana: "ちゅ",
-        value: "Chu"
+        value: "Chu",
       },
 
       {
         kana: "ちょ",
-        value: "Cho"
+        value: "Cho",
       },
 
       {
         kana: "にゃ",
-        value: "Nya"
+        value: "Nya",
       },
-
 
       {
         kana: "にゅ",
-        value: "Nyu"
+        value: "Nyu",
       },
 
       {
         kana: "にょ",
-        value: "Nyo"
+        value: "Nyo",
       },
 
       {
         kana: "ひゃ",
-        value: "Hya"
+        value: "Hya",
       },
 
       {
         kana: "ひゅ",
-        value: "Hyu"
+        value: "Hyu",
       },
 
       {
         kana: "ひゅ",
-        value: "Hyu"
+        value: "Hyu",
       },
 
       {
         kana: "ひょ",
-        value: "Hyo"
+        value: "Hyo",
       },
 
       {
         kana: "びゃ",
-        value: "Bya"
+        value: "Bya",
       },
 
       {
         kana: "びゅ",
-        value: "Byu"
+        value: "Byu",
       },
 
       {
         kana: "びょ",
-        value: "Byo"
+        value: "Byo",
       },
 
       {
         kana: "ぴゃ",
-        value: "Pya"
+        value: "Pya",
       },
 
       {
         kana: "ぴゅ",
-        value: "Pyu"
+        value: "Pyu",
       },
 
       {
         kana: "ぴょ",
-        value: "Pyo"
+        value: "Pyo",
       },
 
       {
         kana: "みゃ",
-        value: "Mya"
+        value: "Mya",
       },
 
       {
         kana: "みゅ",
-        value: "Myu"
+        value: "Myu",
       },
 
       {
         kana: "みょ",
-        value: "Myo"
+        value: "Myo",
       },
 
       {
         kana: "りゃ",
-        value: "Rya"
+        value: "Rya",
       },
 
       {
         kana: "りゅ",
-        value: "Ryu"
+        value: "Ryu",
       },
 
       {
         kana: "りょ",
-        value: "Ryo"
-      }
+        value: "Ryo",
+      },
+    ],
+  },
 
+  {
+    title: "W column (わ を ん)",
+    values: [
+      {
+        kana: "わ",
+        kanaTranslation: "WA",
+        dakuten: null,
+        dakutenTranslation: null,
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
+      },
 
+      {
+        kana: "を",
+        kanaTranslation: "WO/O",
+        dakuten: null,
+        dakutenTranslation: null,
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
+      },
+
+      {
+        kana: "ん",
+        kanaTranslation: "N - nasal",
+        dakuten: null,
+        dakutenTranslation: null,
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
+      },
+    ],
+
+    words: [
+      {
+        kanaWord: "add_word",
+        translation: "add_translation",
+      },
+    ],
+
+    practice: [
+      {
+        kana: "わ",
+        value: "wa",
+      },
+
+      {
+        kana: "を",
+        value: "WO/O",
+      },
+
+      {
+        kana: "ん",
+        value: "N - nasal",
+      },
     ],
   },
 ];
