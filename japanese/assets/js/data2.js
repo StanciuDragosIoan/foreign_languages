@@ -76,7 +76,7 @@ const columns = [
       },
 
       {
-        kanaWord: "あお",
+        kanaWord: "あおい",
         translation: "Blue",
       },
     ],
