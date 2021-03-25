@@ -380,6 +380,86 @@ const columns = [
         kanaWord: "うさぎ",
         translation: "Rabbit",
       },
+
+      {
+        kanaWord: "かさ",
+        translation: "Umbrella",
+      },
+
+      {
+        kanaWord: "きす",
+        translation: "To erase",
+      },
+
+      {
+        kanaWord: "さすう",
+        translation: "To invite",
+      },
+
+      {
+        kanaWord: "おす",
+        translation: "To push",
+      },
+
+      {
+        kanaWord: "くじ",
+        translation: "Lottery",
+      },
+
+      {
+        kanaWord: "おこす",
+        translation: "To wake some1 up/to make sth happen",
+      },
+
+      {
+        kanaWord: "きし",
+        translation: "Knight",
+      },
+
+      {
+        kanaWord: "しお",
+        translation: "Salt",
+      },
+
+      {
+        kanaWord: "すこし",
+        translation: "A little",
+      },
+
+      {
+        kanaWord: "さいせい",
+        translation: "Playback",
+      },
+
+      {
+        kanaWord: "すぐ",
+        translation: "Immediately",
+      },
+
+      {
+        kanaWord: "いしき",
+        translation: "Conscience/consciousness",
+      },
+
+      {
+        kanaWord: "さがす",
+        translation: "To search",
+      },
+
+      {
+        kanaWord: "しぐさ",
+        translation: "Gesture/Mannerism",
+      },
+
+      {
+        kanaWord: "しかく",
+        translation: "Square",
+      },
+
+      {
+        kanaWord: "がくせい",
+        translation: "Student",
+      },
     ],
     practice: [
       {
