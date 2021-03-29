@@ -59,30 +59,26 @@ const columns = [
     ],
 
     words: [
-      {
-        kanaWord: "あい",
-        translation: "Love",
-      },
-
-      {
-        kanaWord: "い",
-        translation: "Stomach",
-      },
-
-      {
-        kanaWord: "いいえ",
-        translation: "no",
-      },
-
-      {
-        kanaWord: "うえ",
-        translation: "Up/Above",
-      },
-
-      {
-        kanaWord: "あおい",
-        translation: "Blue",
-      },
+      // {
+      //   kanaWord: "あい",
+      //   translation: "Love",
+      // },
+      // {
+      //   kanaWord: "い",
+      //   translation: "Stomach",
+      // },
+      // {
+      //   kanaWord: "いいえ",
+      //   translation: "no",
+      // },
+      // {
+      //   kanaWord: "うえ",
+      //   translation: "Up/Above",
+      // },
+      // {
+      //   kanaWord: "あおい",
+      //   translation: "Blue",
+      // },
     ],
 
     practice: [
