@@ -32,7 +32,10 @@ const columns = [
         handakutenTranslation: null,
         mention: `<p class="text center">
         *there is no 'V' sound in Japanese so most people will pronounce
-        <span class="snippet">ヴ</span> as 'B'
+        <span class="snippet">ヴ</span> as 'vu' or 'bui' (from 'B'). Even 'vu' is 
+        very rare, so <span class="snippet">ヴ</span> will almost always be pronounced as
+        (bu) from the H column for names starting with V. 
+        *An exception might be: <br>  ヴラド・ツェペシュ <br>  (Vurado Tsepeshu)
       </p>
       `,
       },
