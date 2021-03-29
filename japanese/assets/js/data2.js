@@ -840,28 +840,33 @@ const columns = [
 
     words: [
       {
-        kanaWord: "replace_with_actual_word",
-        translation: "replace_with_actual_translation",
+        kanaWord: "はな",
+        translation: "flower",
       },
 
       {
-        kanaWord: "replace_with_actual_word",
-        translation: "replace_with_actual_translation",
+        kanaWord: "ひざ",
+        translation: "knee",
       },
 
       {
-        kanaWord: "replace_with_actual_word",
-        translation: "replace_with_actual_translation",
+        kanaWord: "はし",
+        translation: "chopsticks/bridge",
       },
 
       {
-        kanaWord: "replace_with_actual_word",
-        translation: "replace_with_actual_translation",
+        kanaWord: "はなび",
+        translation: "fireworks",
       },
 
       {
-        kanaWord: "replace_with_actual_word",
-        translation: "replace_with_actual_translation",
+        kanaWord: "ふくざつ",
+        translation: "complicated",
+      },
+
+      {
+        kanaWord: "けペき",
+        translation: "perfectionist",
       },
     ],
     practice: [
