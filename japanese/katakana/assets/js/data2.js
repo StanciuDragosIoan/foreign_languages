@@ -190,11 +190,11 @@ const columns = [
         ヴィ (vi)
         </p>
 
-        <p class="text">
+        <p class="text center">
         ヴェ (ve)
         </p>
 
-        <p class="text">
+        <p class="text center">
         ヴォ (vo)
         </p>
         `,
