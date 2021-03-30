@@ -62,26 +62,129 @@ const columns = [
     ],
 
     words: [
-      // {
-      //   kanaWord: "あい",
-      //   translation: "Love",
-      // },
-      // {
-      //   kanaWord: "い",
-      //   translation: "Stomach",
-      // },
-      // {
-      //   kanaWord: "いいえ",
-      //   translation: "no",
-      // },
-      // {
-      //   kanaWord: "うえ",
-      //   translation: "Up/Above",
-      // },
-      // {
-      //   kanaWord: "あおい",
-      //   translation: "Blue",
-      // },
+      {
+        kanaWord: "to_replace_with_word",
+        translation: "translation_goes_here",
+      },
+    ],
+
+    practice: [
+      {
+        kana: "ア",
+        value: "a",
+      },
+
+      {
+        kana: "イ",
+        value: "i",
+      },
+
+      {
+        kana: "ウ",
+        value: "u",
+      },
+
+      {
+        kana: "エ",
+        value: "e",
+      },
+
+      {
+        kana: "オ",
+        value: "o",
+      },
+    ],
+  },
+
+  {
+    title: "Katakana diagraphs - to finish... (ア イ ウ エ オ)",
+    values: [
+      {
+        kana: "ア",
+        kanaTranslation: "A",
+        dakuten: null,
+        dakutenTranslation: null,
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
+      },
+
+      {
+        kana: "イ",
+        kanaTranslation: "i",
+        dakuten: null,
+        dakutenTranslation: null,
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
+      },
+
+      {
+        kana: "ウ",
+        kanaTranslation: "U",
+        dakuten: "ヴ",
+        dakutenTranslation: "V",
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: `<p class="text center">
+        *there is no 'V' sound in Japanese so most people will pronounce
+        <span class="snippet">ヴ</span> as 'vu' or 'bui' (from 'B'). Even 'vu' is 
+        very rare, so <span class="snippet">ヴ</span> will almost always be pronounced as
+        (bu) from the H column for names starting with V. 
+        *An exception might be: <br>  ヴラド・ツェペシュ <br>  (Vurado Tsepeshu)
+      </p>
+      `,
+      },
+
+      {
+        kana: "エ",
+        kanaTranslation: "E",
+        dakuten: null,
+        dakutenTranslation: null,
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
+      },
+
+      {
+        kana: "オ",
+        kanaTranslation: "O",
+        dakuten: null,
+        dakutenTranslation: null,
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: `
+        <p class="text center">
+        Where hiragana puts 2 vowels to express the length of the same vowel <span class="snippet">ああ</span>
+        katakana will lengthen the vowel by adding a dash to it: <span class="snippet">アー</span>
+      </p>
+
+      <p class="text center bold">
+        Diagraphs in katakana
+      </p>
+
+      <p class="text center">
+        Katakana makes diagraphs in order to better mimmick foreign pronounciations:
+      </p>
+
+      <p class="text center"> 
+        wi = ウィ (note the <span class="snippet">ィ</span> is small)
+      </p>
+      <p class="text center"> 
+        we = ウェ (note the <span class="snippet">ェ</span> is small)
+      </p>
+      <p class="text">
+        *note that the wi or we sounds do not exist in Japanese
+      </p>
+        `,
+      },
+    ],
+
+    words: [
+      {
+        kanaWord: "to_replace_with_word",
+        translation: "translation_goes_here",
+      },
     ],
 
     practice: [
