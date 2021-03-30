@@ -97,11 +97,11 @@ const columns = [
   },
 
   {
-    title: "Katakana diagraphs - to finish... (ア イ ウ エ オ)",
+    title: "Katakana vowel diagraphs  (イェ ウィ ウェ ウォ ヴァ)",
     values: [
       {
-        kana: "ア",
-        kanaTranslation: "A",
+        kana: "イェ",
+        kanaTranslation: "ye",
         dakuten: null,
         dakutenTranslation: null,
         handakuten: null,
@@ -110,8 +110,8 @@ const columns = [
       },
 
       {
-        kana: "イ",
-        kanaTranslation: "i",
+        kana: "ウィ",
+        kanaTranslation: "wi",
         dakuten: null,
         dakutenTranslation: null,
         handakuten: null,
@@ -120,25 +120,8 @@ const columns = [
       },
 
       {
-        kana: "ウ",
-        kanaTranslation: "U",
-        dakuten: "ヴ",
-        dakutenTranslation: "V",
-        handakuten: null,
-        handakutenTranslation: null,
-        mention: `<p class="text center">
-        *there is no 'V' sound in Japanese so most people will pronounce
-        <span class="snippet">ヴ</span> as 'vu' or 'bui' (from 'B'). Even 'vu' is 
-        very rare, so <span class="snippet">ヴ</span> will almost always be pronounced as
-        (bu) from the H column for names starting with V. 
-        *An exception might be: <br>  ヴラド・ツェペシュ <br>  (Vurado Tsepeshu)
-      </p>
-      `,
-      },
-
-      {
-        kana: "エ",
-        kanaTranslation: "E",
+        kana: "	ウェ",
+        kanaTranslation: "we",
         dakuten: null,
         dakutenTranslation: null,
         handakuten: null,
@@ -147,35 +130,73 @@ const columns = [
       },
 
       {
-        kana: "オ",
-        kanaTranslation: "O",
+        kana: "ウォ",
+        kanaTranslation: "wo",
+        dakuten: null,
+        dakutenTranslation: null,
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
+      },
+
+      {
+        kana: "ヴァ",
+        kanaTranslation: "va",
+        dakuten: null,
+        dakutenTranslation: null,
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
+      },
+
+      {
+        kana: "ヴィ",
+        kanaTranslation: "vi",
+        dakuten: null,
+        dakutenTranslation: null,
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
+      },
+
+      {
+        kana: "ヴェ",
+        kanaTranslation: "ve",
+        dakuten: null,
+        dakutenTranslation: null,
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
+      },
+
+      {
+        kana: "ヴォ",
+        kanaTranslation: "vo",
         dakuten: null,
         dakutenTranslation: null,
         handakuten: null,
         handakutenTranslation: null,
         mention: `
+        <p class="text">
+          *since most Japanese cannot distinguish the difference between the v and b sounds, the following diagraphs
+          also have a 2nd spelling: 
+        <p/>
+
         <p class="text center">
-        Where hiragana puts 2 vowels to express the length of the same vowel <span class="snippet">ああ</span>
-        katakana will lengthen the vowel by adding a dash to it: <span class="snippet">アー</span>
-      </p>
+        ヴァ (va)
+        </p>
 
-      <p class="text center bold">
-        Diagraphs in katakana
-      </p>
+        <p class="text center">
+        ヴィ (vi)
+        </p>
 
-      <p class="text center">
-        Katakana makes diagraphs in order to better mimmick foreign pronounciations:
-      </p>
+        <p class="text">
+        ヴェ (ve)
+        </p>
 
-      <p class="text center"> 
-        wi = ウィ (note the <span class="snippet">ィ</span> is small)
-      </p>
-      <p class="text center"> 
-        we = ウェ (note the <span class="snippet">ェ</span> is small)
-      </p>
-      <p class="text">
-        *note that the wi or we sounds do not exist in Japanese
-      </p>
+        <p class="text">
+        ヴォ (vo)
+        </p>
         `,
       },
     ],
