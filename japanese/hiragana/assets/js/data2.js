@@ -1003,8 +1003,43 @@ const columns = [
 
     words: [
       {
-        kanaWord: "replace_with_actual_word",
-        translation: "replace_with_actual_translation",
+        kanaWord: "め",
+        translation: "eye",
+      },
+
+      {
+        kanaWord: "まち",
+        translation: "town/city",
+      },
+
+      {
+        kanaWord: "あめ",
+        translation: "rain/candy",
+      },
+
+      {
+        kanaWord: "きもの",
+        translation: "kimono",
+      },
+
+      {
+        kanaWord: "あたま",
+        translation: "head",
+      },
+
+      {
+        kanaWord: "むずかし",
+        translation: "difficult",
+      },
+
+      {
+        kanaWord: "まいにち",
+        translation: "everyday",
+      },
+
+      {
+        kanaWord: "ためいき",
+        translation: "sigh",
       },
     ],
     practice: [
