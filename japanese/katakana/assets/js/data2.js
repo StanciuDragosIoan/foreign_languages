@@ -203,8 +203,8 @@ const columns = [
 
     words: [
       {
-        kanaWord: "to_replace_with_word",
-        translation: "translation_goes_here",
+        kanaWord: "ア!",
+        translation: "ah!",
       },
     ],
 
