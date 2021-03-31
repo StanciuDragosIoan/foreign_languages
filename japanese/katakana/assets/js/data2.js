@@ -5,7 +5,7 @@ const columns = [
     values: [
       {
         kana: "ア",
-        kanaTranslation: "A",
+        kanaTranslation: "a",
         dakuten: null,
         dakutenTranslation: null,
         handakuten: null,
@@ -25,9 +25,9 @@ const columns = [
 
       {
         kana: "ウ",
-        kanaTranslation: "U",
+        kanaTranslation: "u",
         dakuten: "ヴ",
-        dakutenTranslation: "V",
+        dakutenTranslation: "v",
         handakuten: null,
         handakutenTranslation: null,
         mention: `<p class="text center">
@@ -42,7 +42,7 @@ const columns = [
 
       {
         kana: "エ",
-        kanaTranslation: "E",
+        kanaTranslation: "e",
         dakuten: null,
         dakutenTranslation: null,
         handakuten: null,
@@ -52,7 +52,7 @@ const columns = [
 
       {
         kana: "オ",
-        kanaTranslation: "O",
+        kanaTranslation: "o",
         dakuten: null,
         dakutenTranslation: null,
         handakuten: null,
@@ -63,8 +63,12 @@ const columns = [
 
     words: [
       {
-        kanaWord: "to_replace_with_word",
-        translation: "translation_goes_here",
+        kanaWord: "ア!",
+        translation: "ah!",
+      },
+      {
+        kanaWord: "オー!",
+        translation: "Oooh!",
       },
     ],
 
@@ -97,7 +101,7 @@ const columns = [
   },
 
   {
-    title: "Katakana vowel diagraphs  (イェ ウィ ウェ ウォ ヴァ)",
+    title: "vowel diagraphs  (イェ ウィ ウェ ウォ ヴァ ヴィ ヴェ ヴォ)",
     values: [
       {
         kana: "イェ",
@@ -203,35 +207,185 @@ const columns = [
 
     words: [
       {
-        kanaWord: "ア!",
-        translation: "ah!",
+        kanaWord: "to_replace_with_word",
+        translation: "translation_goes_here",
       },
     ],
 
     practice: [
       {
-        kana: "ア",
-        value: "a",
+        kana: "イェ",
+        value: "ye",
+      },
+      {
+        kana: "ウィ",
+        value: "wi",
+      },
+      {
+        kana: "ウェ",
+        value: "we",
+      },
+      {
+        kana: "ウォ",
+        value: "wo",
+      },
+      {
+        kana: "ヴァ",
+        value: "va"
+      },
+      {
+        kana: "ヴィ",
+        value: "vi"
+      },
+      {
+        kana: "ヴェ",
+        value: "ve"
+      },
+      {
+        kana: "ヴォ",
+        value: "vo"
+      }
+    ],
+  },
+  {
+    title: "K column (ア イ ウ エ オ)",
+    values: [
+      {
+        kana: "カ",
+        kanaTranslation: "ka",
+        dakuten: "ガ",
+        dakutenTranslation: "ga",
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
       },
 
       {
-        kana: "イ",
-        value: "i",
+        kana: "キ",
+        kanaTranslation: "ki",
+        dakuten: "ギ",
+        dakutenTranslation: "gi",
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
+      },
+
+
+      {
+        kana: "ク",
+        kanaTranslation: "ku",
+        dakuten: "グ",
+        dakutenTranslation: "gu",
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
       },
 
       {
-        kana: "ウ",
-        value: "u",
+        kana: "ケ",
+        kanaTranslation: "ke",
+        dakuten: "ゲ",
+        dakutenTranslation: "ge",
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
       },
 
       {
-        kana: "エ",
-        value: "e",
+        kana: "コ",
+        kanaTranslation: "ko",
+        dakuten: "ゴ",
+        dakutenTranslation: "go",
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
+      },
+    ],
+
+    words: [
+      {
+        kanaWord: "エコ",
+        translation: "eco friendly",
+      },
+      {
+        kanaWord: "ギア",
+        translation: "gear",
+      },
+      {
+        kanaWord: "カカア",
+        translation: "cacao/cocoa",
+      },
+      {
+        kanaWord: "ケーキ",
+        translation: "cake",
+      },
+      {
+        kanaWord: "カーカー",
+        translation: "crow sound..",
+      },
+      {
+        kanaWord: "イケてる",
+        translation: "cool/sexy",
+      },
+      {
+        kanaWord: "グーグー",
+        translation: "grumbling sound..",
+      },
+      {
+        kanaWord: "オーケー",
+        translation: "okay",
+      }
+    ],
+
+    practice: [
+      {
+        kana: "カ",
+        value: "ka",
       },
 
       {
-        kana: "オ",
-        value: "o",
+        kana: "ガ",
+        value: "ga"
+      },
+
+      {
+        kana: "キ",
+        value: "ki",
+      },
+
+      {
+        kana: "ギ",
+        value: "gi",
+      },
+
+      {
+        kana: "ク",
+        value: "ku",
+      },
+
+      {
+        kana: "グ",
+        value: "gu",
+      },
+
+      {
+        kana: "ケ",
+        value: "ke",
+      },
+
+      {
+        kana: "ケ",
+        value: "ゲ",
+      },
+
+      {
+        kana: "コ",
+        value: "ko",
+      },
+
+      {
+        kana: "ゴ",
+        value: "go",
       },
     ],
   },
