@@ -1126,8 +1126,28 @@ const columns = [
 
     words: [
       {
-        kanaWord: "replace_with_actual_word",
-        translation: "replace_with_actual_translation",
+        kanaWord: "さる",
+        translation: "monkey",
+      },
+      {
+        kanaWord: "はれ",
+        translation: "sunny/ clear weather",
+      },
+      {
+        kanaWord: "らく",
+        translation: "convenient/confortable",
+      },
+      {
+        kanaWord: "おふろ",
+        translation: "bath",
+      },
+      {
+        kanaWord: "くすり",
+        translation: "medicine",
+      },
+      {
+        kanaWord: "おにぎり",
+        translation: "onigiri",
       },
     ],
     practice: [
