@@ -389,6 +389,151 @@ const columns = [
       },
     ],
   },
+
+  {
+    title: "S column (サ シ ス セ ソ)",
+    values: [
+      {
+        kana: "サ",
+        kanaTranslation: "sa",
+        dakuten: "ザ",
+        dakutenTranslation: "za",
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
+      },
+
+      {
+        kana: "シ",
+        kanaTranslation: "shi",
+        dakuten: "ジ",
+        dakutenTranslation: "dji",
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
+      },
+
+
+      {
+        kana: "ス",
+        kanaTranslation: "su",
+        dakuten: "ズ",
+        dakutenTranslation: "zu",
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
+      },
+
+
+      {
+        kana: "セ",
+        kanaTranslation: "se",
+        dakuten: "ゼ",
+        dakutenTranslation: "ze",
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
+      },
+
+      {
+        kana: "ソ",
+        kanaTranslation: "so",
+        dakuten: "ゾ",
+        dakutenTranslation: "zo",
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
+      },
+    ],
+
+    words: [
+      {
+        kanaWord: "エコ",
+        translation: "eco friendly",
+      },
+      {
+        kanaWord: "ギア",
+        translation: "gear",
+      },
+      {
+        kanaWord: "カカア",
+        translation: "cacao/cocoa",
+      },
+      {
+        kanaWord: "ケーキ",
+        translation: "cake",
+      },
+      {
+        kanaWord: "カーカー",
+        translation: "crow sound..",
+      },
+      {
+        kanaWord: "イケてる",
+        translation: "cool/sexy",
+      },
+      {
+        kanaWord: "グーグー",
+        translation: "grumbling sound..",
+      },
+      {
+        kanaWord: "オーケー",
+        translation: "okay",
+      }
+    ],
+    practice: [
+      {
+        kana: "サ",
+        value: "sa",
+      },
+
+      {
+        kana: "ザ",
+        value: "za"
+      },
+
+      {
+        kana: "シ",
+        value: "shi",
+      },
+
+      {
+        kana: "ジ",
+        value: "dji",
+      },
+
+      {
+        kana: "ス",
+        value: "su",
+      },
+
+      {
+        kana: "ズ",
+        value: "zu",
+      },
+
+      {
+        kana: "セ",
+        value: "se",
+      },
+
+      {
+        kana: "ゼ",
+        value: "ze",
+      },
+
+      {
+        kana: "ソ",
+        value: "so",
+      },
+
+      {
+        kana: "ゾ",
+        value: "zo",
+      },
+    ],
+  },
+
+  
 ];
 
 /*
