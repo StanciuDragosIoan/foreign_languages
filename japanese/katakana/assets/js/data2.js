@@ -410,7 +410,17 @@ const columns = [
         dakutenTranslation: "dji",
         handakuten: null,
         handakutenTranslation: null,
-        mention: null,
+        mention: `
+        <p class="text">
+          シ  forms a diagraph together with the vowel  エ, namely <span class="snippet">シェ</span>
+          forming words such as シェフ (chef) or シャレ (share)
+        <p/>
+
+        <p class="text">
+        ジ  forms a diagraph together with the vowel  エ, namely <span class="snippet">ジェ</span>
+        forming words such as ジェリ (jelly)
+      <p/>
+        `,
       },
 
 
