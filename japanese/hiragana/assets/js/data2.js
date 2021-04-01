@@ -1452,8 +1452,12 @@ const columns = [
 
     words: [
       {
-        kanaWord: "replace_with_actual_word",
-        translation: "replace_with_actual_translation",
+        kanaWord: "きょう",
+        translation: "today -short /kyou/",
+      },
+      {
+        kanaWord: "きよ う",
+        translation: "handy/skilled -long /kiyou/",
       },
     ],
     practice: [
@@ -1579,7 +1583,7 @@ const columns = [
 
       {
         kana: "びゅ",
-        value: "Byu",
+        value: "Bya",
       },
 
       {
