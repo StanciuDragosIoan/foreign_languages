@@ -458,37 +458,42 @@ const columns = [
 
     words: [
       {
-        kanaWord: "エコ",
-        translation: "eco friendly",
+        kanaWord: "ガス",
+        translation: "gas (in the gas lines)",
       },
+
       {
-        kanaWord: "ギア",
-        translation: "gear",
+        kanaWord: "アジア",
+        translation: "Asia",
       },
+
+
       {
-        kanaWord: "カカア",
-        translation: "cacao/cocoa",
+        kanaWord: "スキー",
+        translation: "Skiing",
       },
+
       {
-        kanaWord: "ケーキ",
-        translation: "cake",
+        kanaWord: "コース",
+        translation: "course",
       },
+
       {
-        kanaWord: "カーカー",
-        translation: "crow sound..",
+        kanaWord: "ソース",
+        translation: "sauce/source",
       },
+
+
       {
-        kanaWord: "イケてる",
-        translation: "cool/sexy",
+        kanaWord: "カサカサ",
+        translation: "rustling sound/dry",
       },
+
       {
-        kanaWord: "グーグー",
-        translation: "grumbling sound..",
+        kanaWord: "ウイスキー",
+        translation: "whiskey",
       },
-      {
-        kanaWord: "オーケー",
-        translation: "okay",
-      }
+ 
     ],
     practice: [
       {
