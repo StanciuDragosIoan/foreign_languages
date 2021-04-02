@@ -575,6 +575,26 @@ const columns = [
         </p>
         `,
       },
+
+      {
+        kana: "て",
+        kanaTranslation: "te",
+        dakuten: "で",
+        dakutenTranslation: "de",
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
+      },
+
+      {
+        kana: "と",
+        kanaTranslation: "to",
+        dakuten: "ど",
+        dakutenTranslation: "do",
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
+      },
     ],
 
     words: [
@@ -1674,8 +1694,40 @@ const columns = [
 
     words: [
       {
-        kanaWord: "add_word",
-        translation: "add_translation",
+        kanaWord: "かわ",
+        translation: "river",
+      },
+      {
+        kanaWord: "えん",
+        translation: "circle",
+      },
+      {
+        kanaWord: "わたし",
+        translation: "I/me",
+      },
+      {
+        kanaWord: "おんがく",
+        translation: "music",
+      },
+      {
+        kanaWord: "しんぶん",
+        translation: "newspaper",
+      },
+      {
+        kanaWord: "おかあさん",
+        translation: "Mother",
+      },
+      {
+        kanaWord: "じしん",
+        translation: "Earthquake",
+      },
+      {
+        kanaWord: "あんしん",
+        translation: "Peace of mind",
+      },
+      {
+        kanaWord: "たんじょうび",
+        translation: "Birthday",
       },
     ],
 
