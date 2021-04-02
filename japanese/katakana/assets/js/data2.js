@@ -548,6 +548,167 @@ const columns = [
     ],
   },
 
+  {
+    title: "T column (タ チ ツ テ ト)",
+    values: [
+      {
+        kana: "タ",
+        kanaTranslation: "ta",
+        dakuten: "ダ",
+        dakutenTranslation: "da",
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
+      },
+
+      {
+        kana: "チ",
+        kanaTranslation: "chi",
+        dakuten: "ヂ",
+        dakutenTranslation: "ji",
+        handakuten: null,
+        handakutenTranslation: null,
+        mention:  `
+        <p class="text">
+        チ  forms a diagraph together with the vowel  エ, namely <span class="snippet">シェ</span>
+          forming words such as チェア (chair) or アーチェリー (archery).
+        <p/>
+        
+        <p class="text">
+        チ  forms a diagraph together with the vowel  イ, namely <span class="snippet">ティ</span>
+         and there's also a <span class="snippet">ディ</span> diagraph.
+        <p/>`,
+      },
+     
+
+      {
+        kana: "ツ",
+        kanaTranslation: "tsu",
+        dakuten: "ヅ",
+        dakutenTranslation: "zu",
+        handakuten: null,
+        handakutenTranslation: null,
+        mention:` <p class="text">
+        ッ  (small tsu) elongates the consonant after it 
+        <p/>`,
+      },
+
+
+      {
+        kana: "テ",
+        kanaTranslation: "te",
+        dakuten: "デ",
+        dakutenTranslation: "de",
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
+      },
+
+      {
+        kana: "ト",
+        kanaTranslation: "to",
+        dakuten: "ド",
+        dakutenTranslation: "do",
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
+      },
+    ],
+
+    words: [
+      {
+        kanaWord: "タイ",
+        translation: "Thailand",
+      },
+
+      {
+        kanaWord: "チーズ",
+        translation: "Cheese",
+      },
+
+
+      {
+        kanaWord: "デート",
+        translation: "romantic date",
+      },
+
+      {
+        kanaWord: "ドイツ",
+        translation: "Germany",
+      },
+
+      {
+        kanaWord: "スイッチ",
+        translation: "switch"
+      },
+
+      {
+        kanaWord: "サッカー",
+        translation: "soccer"
+      },
+
+      {
+        kanaWord: "アウトドア",
+        translation: "outdoor activities"
+      },
+
+      {
+        kanaWord:"ジェットコースター ",
+        translation: "rollercoaster"
+      }
+ 
+ 
+    ],
+    practice: [
+      {
+        kana: "タ",
+        value: "ta",
+      },
+
+      {
+        kana: "ダ",
+        value: "da"
+      },
+
+      {
+        kana: "チ",
+        value: "chi",
+      },
+
+      {
+        kana: "ヂ",
+        value: "ji",
+      },
+
+      {
+        kana: "ツ",
+        value: "tsu",
+      },
+
+      {
+        kana: "ヅ",
+        value: "zu",
+      },
+
+      {
+        kana: "テ",
+        value: "te",
+      },
+
+      {
+        kana: "デ",
+        value: "de",
+      },
+      {
+        kana: "ト",
+        value: "zo",
+      },
+      {
+        kana: "ド",
+        value: "do",
+      },
+    ],
+  },
   
 ];
 
