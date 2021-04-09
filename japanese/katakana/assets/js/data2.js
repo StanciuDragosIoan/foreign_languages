@@ -459,7 +459,7 @@ const columns = [
     words: [
       {
         kanaWord: "ガス",
-        translation: "gas (in the gas lines)",
+        translation: "gas in the gas lines",
       },
 
       {
@@ -492,6 +492,11 @@ const columns = [
       {
         kanaWord: "ウイスキー",
         translation: "whiskey",
+      },
+
+      {
+        kanaWord: "シェアする",
+        translation: "to share",
       },
  
     ],
@@ -707,6 +712,128 @@ const columns = [
         kana: "ド",
         value: "do",
       },
+    ],
+  },
+
+  {
+    title: "N column (ナ ニ ヌ ネ ノ)",
+    values: [
+      {
+        kana: "ナ",
+        kanaTranslation: "na",
+        dakuten: null,
+        dakutenTranslation: null,
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
+      },
+
+      {
+        kana: "ニ",
+        kanaTranslation: "ni",
+        dakuten: null,
+        dakutenTranslation: null,
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
+      },
+     
+
+      {
+        kana: "ヌ",
+        kanaTranslation: "nu",
+        dakuten: null,
+        dakutenTranslation: null,
+        handakuten: null,
+        handakutenTranslation: null,
+        mention:null,
+      },
+
+
+      {
+        kana: "ネ",
+        kanaTranslation: "ne",
+        dakuten: null,
+        dakutenTranslation: null,
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
+      },
+
+      {
+        kana: "ノ",
+        kanaTranslation: "no",
+        dakuten: null,
+        dakutenTranslation: null,
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
+      },
+    ],
+
+    words: [
+      {
+        kanaWord: "ツナ",
+        translation: "tuna",
+      },
+
+      {
+        kanaWord: "ノート",
+        translation: "note book",
+      },
+
+
+      {
+        kanaWord: "シニア",
+        translation: "elderly people (senior)",
+      },
+
+      {
+        kanaWord: "カヌー",
+        translation: "canoe",
+      },
+
+      {
+        kanaWord: "ネット",
+        translation: "internet"
+      },
+
+      {
+        kanaWord: "ニコニコ",
+        translation: "smiling from ear to ear"
+      },
+
+      {
+        kanaWord: "デザイナー",
+        translation: "designer"
+      }
+ 
+    ],
+    practice: [
+      {
+        kana: "ナ",
+        value: "na",
+      },
+
+      {
+        kana: "ニ",
+        value: "ni"
+      },
+
+      {
+        kana: "ヌ",
+        value: "nu",
+      },
+
+      {
+        kana: "ネ",
+        value: "ne",
+      },
+
+      {
+        kana: "ノ",
+        value: "no",
+      } 
     ],
   },
   
