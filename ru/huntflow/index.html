@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -45,5 +45,31 @@
       "In order to get access to the API, the managing recruiter must request an access token, via e-mail from <a href="#">support@huntflow.ru</a>.
       Only with the access token will you be able to access the API.""
     </p>
+    
+  </body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>A static website</title>
+
+    <!-- include the widget -->
+    <script
+      type="text/javascript"
+      src="https://identity.netlify.com/v1/netlify-identity-widget.js"
+    ></script>
+  </head>
+  <body>
+    <!-- Add a menu:
+   Log in / Sign up - when the user is not logged in
+   Username / Log out - when the user is logged in
+  -->
+    <div data-netlify-identity-menu></div>
+
+    <!-- Add a simpler button:
+    Simple button that will open the modal.
+  -->
+    <div data-netlify-identity-button>Login with Netlify Identity</div>
   </body>
 </html>
