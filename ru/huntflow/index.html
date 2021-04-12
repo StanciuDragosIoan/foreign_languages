@@ -72,9 +72,16 @@
   -->
 
     <div data-netlify-identity-button>Login with Netlify Identity</div>
+    <h1 id="test"></h1>
   </body>
   <script>
     const user = netlifyIdentity.currentUser();
+    const output = document.querySelector("#test");
+    if(user === null) {
+      output.innerHTML = 'PLEASE LOG IN';
+    } else {
+      output.innerHTML = 'welcome';
+    }
     console.log(user);
   </script>
 </html>
