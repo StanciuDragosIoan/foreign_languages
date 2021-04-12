@@ -20,17 +20,14 @@
 </body>
 </html>
   <script>
-    // const netlifyIdentity = require('netlify-identity-widget');
+// Open the modal
+netlifyIdentity.open();
 
-netlifyIdentity.init({
-  container: '#netlify-modal', // defaults to document.body
-  locale: 'en' // defaults to 'en'
-});
+// Get the current user:
+// Available after on('init') is invoked
+const user = netlifyIdentity.currentUser();
 
-netlifyIdentity.open(); // open the modal
-netlifyIdentity.open('login'); // open the modal to the login tab
-netlifyIdentity.open('signup'); // open the modal to the signup tab
-
+// Bind to events
 netlifyIdentity.on('init', user => console.log('init', user));
 netlifyIdentity.on('login', user => console.log('login', user));
 netlifyIdentity.on('logout', () => console.log('Logged out'));
@@ -40,7 +37,7 @@ netlifyIdentity.on('close', () => console.log('Widget closed'));
 
 // Unbind from events
 netlifyIdentity.off('login'); // to unbind all registered handlers
-// netlifyIdentity.off('login', handler); // to unbind a single handler
+netlifyIdentity.off('login', handler); // to unbind a single handler
 
 // Close the modal
 netlifyIdentity.close();
@@ -48,7 +45,8 @@ netlifyIdentity.close();
 // Log out the user
 netlifyIdentity.logout();
 
-// refresh the user's JWT
+// Refresh the user's JWT
+// Call in on('login') handler to ensure token refreshed after it expires (1hr)  
 // Note: this method returns a promise.
 netlifyIdentity.refresh().then((jwt)=>console.log(jwt))
 
