@@ -716,43 +716,177 @@ const columns = [
   },
 
   {
-    title: "N column (ナ ニ ヌ ネ ノ)",
+    title: "H column (ハ ヒ フ へ ホ",
     values: [
       {
-        kana: "ナ",
-        kanaTranslation: "na",
-        dakuten: null,
-        dakutenTranslation: null,
-        handakuten: null,
-        handakutenTranslation: null,
+        kana: "ハ",
+        kanaTranslation: "ha",
+        dakuten: "バ",
+        dakutenTranslation: "ba",
+        handakuten: "パ",
+        handakutenTranslation: "pa",
         mention: null,
       },
 
       {
-        kana: "ニ",
-        kanaTranslation: "ni",
-        dakuten: null,
-        dakutenTranslation: null,
-        handakuten: null,
-        handakutenTranslation: null,
+        kana: "ヒ",
+        kanaTranslation: "hi",
+        dakuten: "ビ",
+        dakutenTranslation: "bi",
+        handakuten: "ピ",
+        handakutenTranslation: "pi",
         mention: null,
       },
      
 
       {
-        kana: "ヌ",
-        kanaTranslation: "nu",
-        dakuten: null,
-        dakutenTranslation: null,
-        handakuten: null,
-        handakutenTranslation: null,
-        mention:null,
+        kana: "フ",
+        kanaTranslation: "fu",
+        dakuten: "ブ",
+        dakutenTranslation: "bu",
+        handakuten: "プ",
+        handakutenTranslation: "pu",
+        mention:`
+        <p class="text">
+          <span class="snippet">フ</span> is special as it is the only syllable in Japanese 
+          to have a sound very close to an <span class="snippet">F</span> sound. However, 
+          since it is not in the <span class="snippet">I</span> row, you couldn't combine it 
+          with <span class="snippet">や</span>, <span class="snippet">ゆ</span> and <span class="snippet">よ</span>
+          to make digraphs. 
+          Instead, you combine <span class="snippet">フ</span> with smaller versions of the katakana 
+          vowels to make a whole "F" column: <span class="snippet">ファ</span>, <span class="snippet">フィ</span>, <span class="snippet">フ</span>, 
+          <span class="snippet">フェ</span> and <span class="snippet">フォ</span>
+        <p>
+        <p class="text">
+        Take note that you don't combine a small <span class="snippet">ウ</span> to <span class="snippet">フ</span> since it already ends in an "u" sound.
+        </p>
+        `,
       },
 
 
       {
-        kana: "ネ",
-        kanaTranslation: "ne",
+        kana: "へ",
+        kanaTranslation: "he",
+        dakuten: "べ",
+        dakutenTranslation: "be",
+        handakuten: "ぺ",
+        handakutenTranslation: "pe",
+        mention: null,
+      },
+
+      {
+        kana: "ホ",
+        kanaTranslation: "ho",
+        dakuten: "ボ",
+        dakutenTranslation: "bo",
+        handakuten: "ポ",
+        handakutenTranslation: "po",
+        mention: null,
+      },
+    ],
+
+    words: [
+      {
+        kanaWord: "ベース",
+        translation: "bass",
+      },
+
+      {
+        kanaWord: "コーヒー",
+        translation: "coffee",
+      },
+
+
+      {
+        kanaWord: "ビジネス",
+        translation: "business",
+      },
+
+    ],
+    practice: [
+      {
+        kana: "ハ",
+        value: "ha",
+      },
+
+      {
+        kana: "バ",
+        value: "ba",
+      },
+
+      {
+        kana: "パ",
+        value: "pa",
+      },
+
+      {
+        kana: "ヒ",
+        value: "hi",
+      },
+
+      {
+        kana: "ビ",
+        value: "bi",
+      },
+
+      {
+        kana: "ピ",
+        value: "pi",
+      },
+
+      {
+        kana: "フ",
+        value: "fu",
+      },
+
+      {
+        kana: "ブ",
+        value: "bu",
+      },
+
+      {
+        kana: "プ",
+        value: "pu",
+      },
+
+      {
+        kana: "へ",
+        value: "he",
+      },
+
+      {
+        kana: "べ",
+        value: "be",
+      },
+
+      {
+        kana: "ぺ",
+        value: "pe",
+      },
+
+      {
+        kana: "ホ",
+        value: "ho",
+      },
+
+      {
+        kana: "ボ",
+        value: "bo",
+      },
+
+      {
+        kana: "ポ",
+        value: "po",
+      },
+    ],
+  },
+
+  {
+    title: "vowels (ア イ ウ エ オ)",
+    values: [
+      {
+        kana: "ア",
+        kanaTranslation: "a",
         dakuten: null,
         dakutenTranslation: null,
         handakuten: null,
@@ -761,8 +895,45 @@ const columns = [
       },
 
       {
-        kana: "ノ",
-        kanaTranslation: "no",
+        kana: "イ",
+        kanaTranslation: "i",
+        dakuten: null,
+        dakutenTranslation: null,
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
+      },
+
+      {
+        kana: "ウ",
+        kanaTranslation: "u",
+        dakuten: "ヴ",
+        dakutenTranslation: "v",
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: `<p class="text center">
+        *there is no 'V' sound in Japanese so most people will pronounce
+        <span class="snippet">ヴ</span> as 'vu' or 'bui' (from 'B'). Even 'vu' is 
+        very rare, so <span class="snippet">ヴ</span> will almost always be pronounced as
+        (bu) from the H column for names starting with V. 
+        *An exception might be: <br>  ヴラド・ツェペシュ <br>  (Vurado Tsepeshu)
+      </p>
+      `,
+      },
+
+      {
+        kana: "エ",
+        kanaTranslation: "e",
+        dakuten: null,
+        dakutenTranslation: null,
+        handakuten: null,
+        handakutenTranslation: null,
+        mention: null,
+      },
+
+      {
+        kana: "オ",
+        kanaTranslation: "o",
         dakuten: null,
         dakutenTranslation: null,
         handakuten: null,
@@ -773,67 +944,40 @@ const columns = [
 
     words: [
       {
-        kanaWord: "ツナ",
-        translation: "tuna",
+        kanaWord: "ア!",
+        translation: "ah!",
       },
-
       {
-        kanaWord: "ノート",
-        translation: "note book",
+        kanaWord: "オー!",
+        translation: "Oooh!",
       },
-
-
-      {
-        kanaWord: "シニア",
-        translation: "elderly people (senior)",
-      },
-
-      {
-        kanaWord: "カヌー",
-        translation: "canoe",
-      },
-
-      {
-        kanaWord: "ネット",
-        translation: "internet"
-      },
-
-      {
-        kanaWord: "ニコニコ",
-        translation: "smiling from ear to ear"
-      },
-
-      {
-        kanaWord: "デザイナー",
-        translation: "designer"
-      }
- 
     ],
+
     practice: [
       {
-        kana: "ナ",
-        value: "na",
+        kana: "ア",
+        value: "a",
       },
 
       {
-        kana: "ニ",
-        value: "ni"
+        kana: "イ",
+        value: "i",
       },
 
       {
-        kana: "ヌ",
-        value: "nu",
+        kana: "ウ",
+        value: "u",
       },
 
       {
-        kana: "ネ",
-        value: "ne",
+        kana: "エ",
+        value: "e",
       },
 
       {
-        kana: "ノ",
-        value: "no",
-      } 
+        kana: "オ",
+        value: "o",
+      },
     ],
   },
   
