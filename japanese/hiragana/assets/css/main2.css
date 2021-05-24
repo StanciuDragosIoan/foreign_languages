@@ -63,6 +63,20 @@ body {
   text-align: center;
 }
 
+/* .f-child:first-child {
+ background:red;
+}
+
+.f-child:nth-child(2) {
+  background:yellow;
+ }
+
+ .f-child:nth-child(3) {
+  background:pink;
+ } */
+
+
+
 .inputItem,
 .labelItem {
   width: 10rem;
