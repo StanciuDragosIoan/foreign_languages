@@ -63,6 +63,22 @@ body {
   text-align: center;
 }
 
+.svg-container{
+  background:#fff;
+}
+
+.kanji_play_button{
+  border-radius: 50%;
+  width:2rem;
+  height:2rem;
+}
+.kanji_play_button::after{
+  content: ">";
+}
+
+ 
+ 
+
 /* .f-child:first-child {
  background:red;
 }
