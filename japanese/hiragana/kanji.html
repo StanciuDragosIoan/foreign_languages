@@ -1,194 +1,118 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-
-
-
-
-    <link rel="stylesheet" media="screen"
-        href="https://assets.jisho.org/assets/application-2d26ebf11b7af6a3b98a02d73cbbed47a670985f49ac3a4e4ec6f282ab909cea.css" />
-
-
-
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Domine:wght@400;700&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Roboto&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/main2.css" type="text/css" />
+    <title>Kanji</title>
 </head>
 
-<body class=" highlight_keyword highlight_common_readings highlight_common_representations production">
-    <h1 class="center text">Kyōiku kanji</h1>
-    <p class="text">Kyōiku kanji, also known as Gakunenbetsu kanji haitōhyō is a list of 1,026 kanji and associated
-        readings developed and maintained by the Japanese Ministry of Education that prescribes which kanji, and which
-        readings of kanji, Japanese students should learn from first grade to the sixth grade.</p>
-    <div id="kanji_strokes_51866272d5dda7965800004c" class="kanji_strokes" data-area-name="brush">
-        <button class="kanji_play_button">
-            <svg viewBox="0 0 30 30" class="icon play-circle-icon ">
-                <use
-                    xlink:href="https://jisho.org/assets/icons-ab7975eb6f8bb532f99ba2d769be43c5431dec4c0e4d220df7367f1d954d9424.svg#play-circle">
-                </use>
-            </svg>
-
-        </button>
-        <div class="stage">
-            <canvas width="140" height="140"></canvas>
+<body>
+    <div class="text center">
+        <h1>Kyōiku kanji (教育漢字)</h1>
+        <p class="text">
+            A list of 1026 kanji that elementary school students have to learn till 6th grade.
+        </p>
+        <!-- 1 -->
+        <p class="text">
+            1. <span class="snippet">一</span>
+            <br>
+            one, one radical (no.1)
+        </p>
+        <p class="text">
+            Kun: ひと-、 ひと.つ
+        </p>
+        <p class="text">
+            On: イチ、 イツ
+        </p>
+        <p class="text">Strokes:</p>
+        <div class="devPic">
+            <img src="./kanji/hito_ichi.png" alt="">
         </div>
-        <div class="buttons">
-            <svg viewBox="0 0 30 30" class="icon play-icon replay_button">
-                <use
-                    xlink:href="https://jisho.org/assets/icons-ab7975eb6f8bb532f99ba2d769be43c5431dec4c0e4d220df7367f1d954d9424.svg#play">
-                </use>
-            </svg>
+        <p class="text">
+            On reading compounds:
+        </p>
+        <p class="text">
+            1. <span class="snippet">一【イチ】</span> one, best, first, foremost, beginning, start,
+        </p>
+        <p class="text">
+            2. <span class="snippet">均一 【キンイツ】</span> uniformity, equality
+        </p>
+        <p class="text">
+            Kun reading compounds:
+        </p>
+        <p class="text">
+            1. <span class="snippet">一つ 【ひとつ】</span> one, for one thing, only
+        </p>
+        <p class="text">
+            2. <span class="snippet">一つ一つ 【ひとつひとつ】</span> one-by-one, separately, in detail
+        </p>
 
-            <svg viewBox="0 0 30 30" class="icon settings-icon toggle_kanji_actions">
-                <use
-                    xlink:href="https://jisho.org/assets/icons-ab7975eb6f8bb532f99ba2d769be43c5431dec4c0e4d220df7367f1d954d9424.svg#settings">
-                </use>
-            </svg>
-
+        <!-- 2 -->
+        <p class="text">
+            2. <span class="snippet">二</span>
+            <br>
+            two, two radical (no. 7)
+        </p>
+        <p class="text">
+            Kun: ふた、 ふた.つ、 ふたたび
+        </p>
+        <p class="text">
+            On: ニ、 ジ
+        </p>
+        <p class="text">Strokes:</p>
+        <div class="devPic">
+            <img src="./kanji/futa_ni.png" alt="">
         </div>
+        <p class="text">
+            On reading compounds:
+        </p>
+        <p class="text">
+            1. <span class="snippet">二 【ニ】</span> two
+        </p>
 
-    </div>
-
-
-
-
-    <script
-        src="https://assets.jisho.org/assets/application-fe07b0b8ade93cbea5bf2f513ab5d59be67f0c111905dbeabfb88aa48c81e88e.js"></script>
-
-    <style type="text/css" media="screen">
-        .debug {
-            display: none;
-        }
-    </style>
-
-    <script>
-        (function () {
-
-            var url = '//d1w6u4xc3l95km.cloudfront.net/kanji-2015-03/04e00.svg';
-
-            function initAnimation(response) {
-                var k;
-                var el = $('#kanji_strokes_51866272d5dda7965800004c');
-                var result = [];
-                var doc = $(response);
-                doc.find('path[d]').each(function () {
-                    var el = $(this);
-                    var type = el.attr('kvg:type');
-                    var paths = el.attr('d');
-                    result.push(type.charCodeAt(0).toString(16) + ':' + paths);
-                });
-                el.addClass('loaded');
-                el.show();
-                k = new Kanji(result, el, {
-                    brush: 'https://assets.jisho.org/assets/brushes/8-32218783e29738bb91521ff3b2697ee82ea31715b85f21a2021ff4d9af9fd9c7.png'
-                });
-                k.draw();
-
-                $('.speed_slider', el).noUiSlider({
-                    handles: 1,
-                    start: [Kanji.getSetting('speed')],
-                    range: [Kanji.MIN_SPEED, Kanji.MAX_SPEED]
-                }).change(function () {
-                    var val = parseFloat($(this).val())
-                    k.setSpeed(val);
-                    k.animateFromStart();
-                });
-
-                $('.thickness_slider', el).noUiSlider({
-                    handles: 1,
-                    start: [Kanji.getSetting('thickness')],
-                    range: [Kanji.MIN_THICKNESS, Kanji.MAX_THICKNESS],
-                    slide: function () {
-                        var val = parseFloat($(this).val())
-                        k.setThickness(val);
-                    }
-                });
-
-                $('.toggle_kanji_actions', el).click(function () {
-                    el.addClass('show_actions');
-                });
-
-                $('.ok_button', el).click(function () {
-                    el.removeClass('show_actions');
-                });
-
-                $('.kanji_play_button', el).on('click', function () {
-                    el.addClass('activated');
-                    k.animateFromStart();
-                });
-
-                $('.replay_button', el).on('click', function () {
-                    k.animateFromStart();
-                });
-
-            }
-
-            function initDiagram(response) {
-                var el = $('.stroke_order_diagram--svg_container_for_51866272d5dda7965800004c');
-                new strokeOrderDiagram(el.get(0), response);
-                el.show();
-            }
-
-            $.ajax({
-                type: 'GET',
-                dataType: 'xml',
-                url: url,
-                success: function (response) {
-                    initAnimation(response);
-                    initDiagram(response);
-                }
-            });
-
-        })();
-    </script>
+        <p class="text">
+            Kun reading compounds:
+        </p>
+        <p class="text">
+            1. <span class="snippet">二つ 【ふたつ】</span> two
+        </p>
 
 
-    <script>
+        <!-- 3 -->
+        <p class="text">
+            3. <span class="snippet">三</span>
+            <br>
+            three
+        </p>
+        <p class="text">
+            Kun: み、 み.つ、 みっ.つ
+        </p>
+        <p class="text">
+            On: サン、 ゾウ
+        </p>
+        <p class="text">Strokes:</p>
+        <div class="devPic">
+            <img src="./kanji/mi_san.png" alt="">
+        </div>
+        <p class="text">
+            On reading compounds:
+        </p>
+        <p class="text">
+            1. <span class="snippet">三 【サン】</span> three, tri-
+        </p>
 
-        (function () {
-
-            Namespace('Jisho.KeyEvents', {});
-            var body = $(document.body);
-
-            function applyBodyClass(keyEvent, on) {
-                body.toggleClass(getClassForEvent(keyEvent), on !== (keyEvent.type == 'display'));
-            }
-
-            function getClassForEvent(keyEvent) {
-                return (keyEvent.type == 'display' ? 'hide' : 'highlight') + '_' + keyEvent.name;
-            }
-
-            body.keydown(function (e) {
-                var events = Jisho.KeyEvents[e.which];
-                if (events) {
-                    events.each(function (keyEvent) {
-                        if (keyEvent.active) return;
-                        keyEvent.active = true;
-                        if (keyEvent.phase == 'toggle') {
-                            body.toggleClass(getClassForEvent(keyEvent));
-                        } else {
-                            applyBodyClass(keyEvent, true);
-                        }
-                    });
-                }
-            });
-
-            body.keyup(function (e) {
-                var events = Jisho.KeyEvents[e.which];
-                if (events) {
-                    events.each(function (keyEvent) {
-                        keyEvent.active = false;
-                        if (keyEvent.phase !== 'toggle') {
-                            applyBodyClass(keyEvent, false);
-                        }
-                    });
-                }
-            });
-
-
-        })();
-
-    </script>
-
-
+        <p class="text">
+            Kun reading compounds:
+        </p>
+        <p class="text">
+            1. <span class="snippet">三 【さん</span> three, tri-
+        </p>
     </div>
 
 </body>
