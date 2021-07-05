@@ -1666,11 +1666,11 @@ const columns = [
   },
 
   {
-    title: "template vowels (ア イ ウ エ オ)",
+    title: "W column (ワ ヰ ヲ ン)",
     values: [
       {
-        kana: "ア",
-        kanaTranslation: "a",
+        kana: "ワ",
+        kanaTranslation: "wa",
         dakuten: null,
         dakutenTranslation: null,
         handakuten: null,
@@ -1679,8 +1679,8 @@ const columns = [
       },
 
       {
-        kana: "イ",
-        kanaTranslation: "i",
+        kana: "ヰ",
+        kanaTranslation: "wi",
         dakuten: null,
         dakutenTranslation: null,
         handakuten: null,
@@ -1689,25 +1689,8 @@ const columns = [
       },
 
       {
-        kana: "ウ",
-        kanaTranslation: "u",
-        dakuten: "ヴ",
-        dakutenTranslation: "v",
-        handakuten: null,
-        handakutenTranslation: null,
-        mention: `<p class="text center">
-        *there is no 'V' sound in Japanese so most people will pronounce
-        <span class="snippet">ヴ</span> as 'vu' or 'bui' (from 'B'). Even 'vu' is 
-        very rare, so <span class="snippet">ヴ</span> will almost always be pronounced as
-        (bu) from the H column for names starting with V. 
-        *An exception might be: <br>  ヴラド・ツェペシュ <br>  (Vurado Tsepeshu)
-      </p>
-      `,
-      },
-
-      {
-        kana: "エ",
-        kanaTranslation: "e",
+        kana: "ヲ",
+        kanaTranslation: "wo",
         dakuten: null,
         dakutenTranslation: null,
         handakuten: null,
@@ -1716,54 +1699,61 @@ const columns = [
       },
 
       {
-        kana: "オ",
-        kanaTranslation: "o",
+        kana: "ン",
+        kanaTranslation: "n",
         dakuten: null,
         dakutenTranslation: null,
         handakuten: null,
         handakutenTranslation: null,
         mention: null,
       },
+
     ],
 
     words: [
       {
-        kanaWord: "ア!",
-        translation: "ah!",
+        kanaWord: "コンビニ",
+        translation: "convenience store",
       },
       {
-        kanaWord: "オー!",
-        translation: "Oooh!",
+        kanaWord: "エアコン",
+        translation: "air conditioneer",
       },
-    ],
+      {
+        kanaWord: "プレゼント",
+        translation: "present",
+      },
+      {
+        kanaWord: "コンタクト",
+        translation: "contact lenses",
+      },
+    ], 
 
     practice: [
       {
-        kana: "ア",
-        value: "a",
+        kana: "ワ",
+        value: "wa",
       },
 
       {
-        kana: "イ",
-        value: "i",
+        kana: "ヰ",
+        value: "wi",
       },
 
       {
-        kana: "ウ",
-        value: "u",
+        kana: "ヲ",
+        value: "wo",
       },
 
       {
-        kana: "エ",
-        value: "e",
+        kana: "ン",
+        value: "n",
       },
-
-      {
-        kana: "オ",
-        value: "o",
-      },
+ 
     ],
   },
+
+  
   
 ];
 
