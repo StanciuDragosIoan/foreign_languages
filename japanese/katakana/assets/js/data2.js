@@ -249,7 +249,7 @@ const columns = [
     ],
   },
   {
-    title: "K column (ア イ ウ エ オ)",
+    title: "K column (カ キ ク ケ コ)",
     values: [
       {
         kana: "カ",
